@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\2020.3.3f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-U:/HCI510/HCI510_GameMockup/HCI_510_Project
+C:/Users/agali1/Documents/HCI510/HCI510_GameMockup/HCI_510_Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51626
-Successfully changed project path to: U:/HCI510/HCI510_GameMockup/HCI_510_Project
-U:/HCI510/HCI510_GameMockup/HCI_510_Project
+52967
+Successfully changed project path to: C:/Users/agali1/Documents/HCI510/HCI510_GameMockup/HCI_510_Project
+C:/Users/agali1/Documents/HCI510/HCI510_GameMockup/HCI_510_Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 107.80 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 57.62 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.3f1 (76626098c1c4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path U:/HCI510/HCI510_GameMockup/HCI_510_Project/Assets
+[Subsystems] Discovering subsystems at path C:/Users/agali1/Documents/HCI510/HCI510_GameMockup/HCI_510_Project/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
@@ -35,305 +35,49 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56868
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004529 seconds.
+Registered in 0.004295 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 54.90 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 48.62 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.083 seconds
+- Completed reload, in  1.996 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.178884 seconds.
+Registered in 0.001240 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.084 seconds
+- Completed reload, in  1.410 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.4 MB.
-System memory in use after: 57.4 MB.
+Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.5 MB.
+System memory in use after: 57.6 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1560.
-Total: 2.935500 ms (FindLiveObjects: 0.189500 ms CreateObjectMapping: 0.077300 ms MarkObjects: 2.524000 ms  DeleteObjects: 0.142600 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Medium_D.fbx
-  artifactKey: Guid(a8c2357105bbbbe4688f85277cccc5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Medium_D.fbx using Guid(a8c2357105bbbbe4688f85277cccc5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2e38090c22210f8601cb854b6a4298f') in 1.985705 seconds
-  Import took 1.991840 seconds .
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1561.
+Total: 2.529900 ms (FindLiveObjects: 0.179600 ms CreateObjectMapping: 0.069600 ms MarkObjects: 2.143500 ms  DeleteObjects: 0.135000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000769 seconds.
-  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_SmallWide_Winter.fbx
-  artifactKey: Guid(113fd9655d996b94f966b82dbaa448bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_SmallWide_Winter.fbx using Guid(113fd9655d996b94f966b82dbaa448bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '968f9ebef96d9a7f80f4404d2ccaed0c') in 0.240376 seconds
-  Import took 0.245913 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000730 seconds.
-  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Medium_A.fbx
-  artifactKey: Guid(10b44c8ef6347ce4a9ffc147dd5dabf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Medium_A.fbx using Guid(10b44c8ef6347ce4a9ffc147dd5dabf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d96494caf26cffb810e3aeb2aec9cbc') in 0.182669 seconds
-  Import took 0.186639 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000593 seconds.
-  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_SmallWide_Summer.fbx
-  artifactKey: Guid(55c4a7556586d1a41af84401e23c7f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_SmallWide_Summer.fbx using Guid(55c4a7556586d1a41af84401e23c7f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd642573ad51ecda83b3fb263923aa0ff') in 0.181894 seconds
-  Import took 0.185946 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000571 seconds.
-  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_Small_SumAut.fbx
-  artifactKey: Guid(24385fac2f0992d4db00a60ea4c64726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_Small_SumAut.fbx using Guid(24385fac2f0992d4db00a60ea4c64726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea7668ee746cab09cfc5e0b8f62e76c') in 0.228591 seconds
-  Import took 0.231431 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000446 seconds.
-  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_Tall_Summer.fbx
-  artifactKey: Guid(8aed1ee6de482104398343e2285e22b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_Tall_Summer.fbx using Guid(8aed1ee6de482104398343e2285e22b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1601d6ae9f4d650fbaf21092cb8a9db2') in 0.176969 seconds
-  Import took 0.179581 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000470 seconds.
-  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_Tall_SumAut.fbx
-  artifactKey: Guid(9c1b80ac22fa2794c8c3faa0fda4a3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_Tall_SumAut.fbx using Guid(9c1b80ac22fa2794c8c3faa0fda4a3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61e2bc2fa8c451585324056630c02116') in 0.180086 seconds
-  Import took 0.182851 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000534 seconds.
-  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Medium_B.fbx
-  artifactKey: Guid(158d375424ae3a04cb06c5f51c0551da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Medium_B.fbx using Guid(158d375424ae3a04cb06c5f51c0551da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e72e5fe6ced4050a2fe2013a35f6d2a') in 0.165531 seconds
-  Import took 0.168324 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000566 seconds.
-  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Large_A.fbx
-  artifactKey: Guid(ace6af98ff58673479d67f37fd1d0516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Large_A.fbx using Guid(ace6af98ff58673479d67f37fd1d0516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7dfb74877d591f4a679bbe30dd9d4a7') in 0.196582 seconds
-  Import took 0.199521 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000471 seconds.
-  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Medium_E.fbx
-  artifactKey: Guid(8ab510b9d675003459359a891c551dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Medium_E.fbx using Guid(8ab510b9d675003459359a891c551dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be5514ce480beb21a207a473bf1e71da') in 0.266696 seconds
-  Import took 0.271052 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000650 seconds.
-  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_Tall_Winter.fbx
-  artifactKey: Guid(ba2f2af699518e84fb36161af7f35aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_Tall_Winter.fbx using Guid(ba2f2af699518e84fb36161af7f35aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8b99a527908c3d0aef69077bd655709') in 0.189073 seconds
-  Import took 0.193036 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000566 seconds.
-  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Large_G.fbx
-  artifactKey: Guid(74de74132c7221e47aed09faea909131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Large_G.fbx using Guid(74de74132c7221e47aed09faea909131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0baddaca2fce27eaaa5d1de06241029') in 0.217278 seconds
-  Import took 0.220447 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000533 seconds.
-  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Large_H.fbx
-  artifactKey: Guid(50ec74ff517fdd54596b4d912fe34f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Large_H.fbx using Guid(50ec74ff517fdd54596b4d912fe34f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '371f1c6e1758ad8726be6993ac10aeab') in 0.204692 seconds
-  Import took 0.207866 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000597 seconds.
-  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Small_B.fbx
-  artifactKey: Guid(d43e721de08bef04e835bd71fb4d87f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Small_B.fbx using Guid(d43e721de08bef04e835bd71fb4d87f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f3692185273010be11a6cfc92f0165b') in 0.224717 seconds
-  Import took 0.228099 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000584 seconds.
-  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Large_C.fbx
-  artifactKey: Guid(51d7a7837d2be0c4baa5b6861c1b92cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Large_C.fbx using Guid(51d7a7837d2be0c4baa5b6861c1b92cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50947b47322704a1ff67bcdd69c2b979') in 0.217627 seconds
-  Import took 0.220818 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000582 seconds.
-  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Medium_F.fbx
-  artifactKey: Guid(1a5f3634448f85c40a688ce3f10736e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Medium_F.fbx using Guid(1a5f3634448f85c40a688ce3f10736e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9eb50a34657162d33b7974dba0ba172') in 0.191489 seconds
-  Import took 0.194624 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000588 seconds.
-  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Small_D.fbx
-  artifactKey: Guid(577843e909849c74e92a3ea0cee5b53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Small_D.fbx using Guid(577843e909849c74e92a3ea0cee5b53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b734ca6f8026b6c4e8d8b16d47afbb1') in 0.199230 seconds
-  Import took 0.203053 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000507 seconds.
-  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Small_E.fbx
-  artifactKey: Guid(e4ac51746797f2e4293a32d5798a711a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Small_E.fbx using Guid(e4ac51746797f2e4293a32d5798a711a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62ff9792d2b9892a2729d89deb4cc0e7') in 0.168521 seconds
-  Import took 0.171298 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000481 seconds.
-  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Medium_C.fbx
-  artifactKey: Guid(19aa035b3cc0ee8468314e983dcaa8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Medium_C.fbx using Guid(19aa035b3cc0ee8468314e983dcaa8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26194011adaf5b201a9c75dac6c6fe21') in 0.180716 seconds
-  Import took 0.183579 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000474 seconds.
-  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_Small_Winter.fbx
-  artifactKey: Guid(a31004de3612a3e4e81fae9e0342cf4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_Small_Winter.fbx using Guid(a31004de3612a3e4e81fae9e0342cf4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d0be868ba951ab8e20a2d50d69069d0') in 0.190268 seconds
-  Import took 0.193102 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000485 seconds.
-  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Small_G.fbx
-  artifactKey: Guid(cb97b63ea827ef943bf415437edbd45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Small_G.fbx using Guid(cb97b63ea827ef943bf415437edbd45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b776ae12a1ecb95cfe137469ea48a54d') in 0.168260 seconds
-  Import took 0.172254 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000478 seconds.
-  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_Medium_Winter.fbx
-  artifactKey: Guid(feca5e0a19d2e954786068541e7ad26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_Medium_Winter.fbx using Guid(feca5e0a19d2e954786068541e7ad26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5aba2a5cef54368a160c8235c0d2c9a') in 0.173064 seconds
-  Import took 0.175798 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000619 seconds.
-  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_Small_Summer.fbx
-  artifactKey: Guid(0922615b8cf37de4dbed5ebaeb515038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_Small_Summer.fbx using Guid(0922615b8cf37de4dbed5ebaeb515038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5b97ec95b67503589dc8d898db104a3') in 0.220295 seconds
-  Import took 0.225037 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000690 seconds.
-  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Small_F.fbx
-  artifactKey: Guid(926d62e2ab4c8ea4eaa865d640788530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Small_F.fbx using Guid(926d62e2ab4c8ea4eaa865d640788530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff5b1d571ed6d440531f65a713c9773b') in 0.186583 seconds
-  Import took 0.190808 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000574 seconds.
-  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_Medium_SumAut.fbx
-  artifactKey: Guid(14170a0d9e67a244ab362fee5c702312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_Medium_SumAut.fbx using Guid(14170a0d9e67a244ab362fee5c702312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72be1a1da1e22f48e97d6b7e8dc9f1c4') in 0.210892 seconds
-  Import took 0.214155 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000530 seconds.
-  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_Medium_Summer.fbx
-  artifactKey: Guid(2a07e72cdd51a8847a97b0f05c4d9a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_Medium_Summer.fbx using Guid(2a07e72cdd51a8847a97b0f05c4d9a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89e0d888def3a24a11168a6f1cdf540d') in 0.179361 seconds
-  Import took 0.183810 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000542 seconds.
-  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_SmallWide_SumAut.fbx
-  artifactKey: Guid(ebd7cb7d2da226040874ab25a655ac11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_SmallWide_SumAut.fbx using Guid(ebd7cb7d2da226040874ab25a655ac11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fdedd634d1831bc86aab45ae7c40ac9') in 0.210506 seconds
-  Import took 0.213469 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000617 seconds.
-  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Small_C.fbx
-  artifactKey: Guid(f195ac57f8166814587404143e5b1fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Small_C.fbx using Guid(f195ac57f8166814587404143e5b1fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e93d1820f5f55f688cf88d8c93d4031') in 0.176450 seconds
-  Import took 0.179346 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000492 seconds.
-  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Large_E.fbx
-  artifactKey: Guid(1670ddb725ec5694db0be08f99b4ce79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Large_E.fbx using Guid(1670ddb725ec5694db0be08f99b4ce79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e1c880452eea4f3f8a32bfff80160db') in 0.190417 seconds
-  Import took 0.193117 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000475 seconds.
-  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Large_D.fbx
-  artifactKey: Guid(0c3ea6fc104342f4b9a288aac02caee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Large_D.fbx using Guid(0c3ea6fc104342f4b9a288aac02caee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00c63052f566177e5f45ad18b052e91b') in 0.194386 seconds
-  Import took 0.197191 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000647 seconds.
-  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Large_B.fbx
-  artifactKey: Guid(f08bb33cbc2763841b783e0ff87332a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Large_B.fbx using Guid(f08bb33cbc2763841b783e0ff87332a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b1f3c1dd5418ec1bdb648e2b254f08') in 0.185636 seconds
-  Import took 0.188415 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000545 seconds.
-  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Large_F.fbx
-  artifactKey: Guid(552772bd693d5cc46b7a087cf9c2eb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Large_F.fbx using Guid(552772bd693d5cc46b7a087cf9c2eb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea525380df28d2e295a3b00ba03adb3') in 0.193447 seconds
-  Import took 0.197877 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000444 seconds.
-  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Small_A.fbx
-  artifactKey: Guid(af4a94b37cad5b8409e1455d932f1437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Small_A.fbx using Guid(af4a94b37cad5b8409e1455d932f1437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ad592d4e0f3fbb030e308ae98073d8f') in 0.165329 seconds
-  Import took 0.168092 seconds .
+  path: Assets/LowPolyEnviroPack_LITE_builtIn/BeachArea_Set1/Timelines
+  artifactKey: Guid(5bc221137d16ba84caaecacab17d84ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BeachArea_Set1/Timelines using Guid(5bc221137d16ba84caaecacab17d84ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87d56cbf18c36dad2eb1417129fe08d5') in 0.022030 seconds
+  Import took 0.027155 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
