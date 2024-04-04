@@ -14,11 +14,13 @@ public class TestScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-		Debug.Log(MoonSharpFactorial());
+		Debug.Log("Val 1: " + MoonSharpFactorial());
+		Debug.Log(", Val 2: " + MoonSharpFactorial2());
+		Debug.Log(", Val 3: " + MoonSharpFactorial3());
     }
-	double MoonSharpFactorial()
-	{
-		string script = @"    
+    double MoonSharpFactorial()
+    {
+        string scriptCode = @"    
 		-- defines a factorial function
 		function fact (n)
 			if (n == 0) then
@@ -28,9 +30,53 @@ public class TestScript : MonoBehaviour
 			end
 		end
 
-		return fact(5)";
+		return fact(mynumber)";
 
-		DynValue res = Script.RunString(script);
-		return res.Number;
-	}
+        Script script = new Script();
+
+        script.Globals["mynumber"] = 7;
+
+        DynValue res = script.DoString(scriptCode);
+        return res.Number;
+    }
+
+    double MoonSharpFactorial2()
+    {
+        string scriptCode = @"    
+		-- defines a factorial function
+		function fact (n)
+			if (n == 0) then
+				return 1
+			else
+				return n*fact(n - 1)
+			end
+		end";
+
+        Script script = new Script();
+
+        script.DoString(scriptCode);
+
+        DynValue res = script.Call(script.Globals["fact"], 4);
+
+        return res.Number;
+    }
+
+    double MoonSharpFactorial3()
+    {
+        string scriptCode = @"    
+		-- defines a factorial function
+		function fact (n)
+			if (n == 0) then
+				return 1
+			else
+				return n*fact(n - 1)
+			end
+		end";
+
+        Script script = new Script();
+        script.DoString(scriptCode);
+        DynValue luaFactFunction = script.Globals.Get("fact");
+        DynValue res = script.Call(luaFactFunction, 4);
+        return res.Number;
+    }
 }
