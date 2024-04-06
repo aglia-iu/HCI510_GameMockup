@@ -15,11 +15,11 @@ C:/Users/agali1/Documents/HCI510/HCI510_GameMockup/HCI_510_Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52967
+50934
 Successfully changed project path to: C:/Users/agali1/Documents/HCI510/HCI510_GameMockup/HCI_510_Project
 C:/Users/agali1/Documents/HCI510/HCI510_GameMockup/HCI_510_Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 57.62 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 55.57 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.3f1 (76626098c1c4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Resources/UnitySubsystems
@@ -35,49 +35,952 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56868
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56148
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004295 seconds.
+Registered in 0.004271 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 48.62 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 54.89 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.996 seconds
+- Completed reload, in  2.145 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001240 seconds.
+Registered in 0.001386 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.410 seconds
+- Completed reload, in  1.501 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.5 MB.
+Unloading 1117 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.6 MB.
 System memory in use after: 57.6 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1561.
-Total: 2.529900 ms (FindLiveObjects: 0.179600 ms CreateObjectMapping: 0.069600 ms MarkObjects: 2.143500 ms  DeleteObjects: 0.135000 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1562.
+Total: 2.610800 ms (FindLiveObjects: 0.298500 ms CreateObjectMapping: 0.081100 ms MarkObjects: 2.100000 ms  DeleteObjects: 0.129300 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/LowPolyEnviroPack_LITE_builtIn/BeachArea_Set1/Timelines
-  artifactKey: Guid(5bc221137d16ba84caaecacab17d84ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BeachArea_Set1/Timelines using Guid(5bc221137d16ba84caaecacab17d84ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87d56cbf18c36dad2eb1417129fe08d5') in 0.022030 seconds
-  Import took 0.027155 seconds .
+  path: Assets/Zololgo/FlatPoly Floating Islands/Models
+  artifactKey: Guid(c806293ad883db2449b148806b8cd08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Floating Islands/Models using Guid(c806293ad883db2449b148806b8cd08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d635546f538cc717b2a88b61473602') in 0.017670 seconds
+  Import took 0.021292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Zololgo/FlatPoly Floating Islands
+  artifactKey: Guid(17cffc8d1461e9c4aa2517e3529b0327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Floating Islands using Guid(17cffc8d1461e9c4aa2517e3529b0327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bece3a2ca8226b81c899b46eb3a982b5') in 0.012150 seconds
+  Import took 0.014373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Zololgo/FlatPoly Floating Islands/Models/floating_islands_foliage.obj
+  artifactKey: Guid(5e87f13aea6549a4fab98bebe6f3d676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Floating Islands/Models/floating_islands_foliage.obj using Guid(5e87f13aea6549a4fab98bebe6f3d676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cadf23e99f1043a4db2f29f288e7b82c') in 0.535104 seconds
+  Import took 0.538099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Zololgo/FlatPoly Floating Islands/Models/floating_islands_other.obj
+  artifactKey: Guid(3ba712566fc5561499e3869933cfba26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Floating Islands/Models/floating_islands_other.obj using Guid(3ba712566fc5561499e3869933cfba26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2879c06d97be283b75e7799fec3bcea8') in 0.228800 seconds
+  Import took 0.231871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Zololgo/FlatPoly Color Palettes
+  artifactKey: Guid(b9316060bf893354abf8371a1927485c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Color Palettes using Guid(b9316060bf893354abf8371a1927485c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '828572149a7cbce796c7d041395732b9') in 0.019539 seconds
+  Import took 0.022253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Zololgo/FlatPoly Floating Islands/Models/floating_islands_environment.obj
+  artifactKey: Guid(3dff5c602fa2a3a45b81246f45003770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Floating Islands/Models/floating_islands_environment.obj using Guid(3dff5c602fa2a3a45b81246f45003770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e9c987d180e42b95427694c268d497b') in 0.421521 seconds
+  Import took 0.424938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.439537 seconds.
+  path: Assets/Zololgo/FlatPoly Floating Islands/Prefabs
+  artifactKey: Guid(3cdd9f2c4d18ac344ade03beb178cf9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Floating Islands/Prefabs using Guid(3cdd9f2c4d18ac344ade03beb178cf9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd41f74a431f7619dd132a7d12085efdf') in 0.012551 seconds
+  Import took 0.015388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.988719 seconds.
+  path: Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment
+  artifactKey: Guid(b2ad4440078b0b146bdbb24fc806fa94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment using Guid(b2ad4440078b0b146bdbb24fc806fa94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad4e05aba1532bea22e6677f495c8d50') in 0.013420 seconds
+  Import took 0.016262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.089426 seconds.
+  path: Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/island_A_01.prefab
+  artifactKey: Guid(95fe2533720aeb743ade98ad01dc2812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/island_A_01.prefab using Guid(95fe2533720aeb743ade98ad01dc2812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b7dddf024c87a055e301f9bbff1c03') in 0.030041 seconds
+  Import took 0.033214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/rock_B_05.prefab
+  artifactKey: Guid(1e34067b5fa7fe344ba6f9221220c9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/rock_B_05.prefab using Guid(1e34067b5fa7fe344ba6f9221220c9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf03c141dc1a2f63ea351fe3271c09b5') in 0.021886 seconds
+  Import took 0.024528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/island_D_02.prefab
+  artifactKey: Guid(46e0032fdef51c14ca01e02a0c5c51a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/island_D_02.prefab using Guid(46e0032fdef51c14ca01e02a0c5c51a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01b56e940f80ffb32529bdb8174e26ff') in 0.021045 seconds
+  Import took 0.023882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_B_03.prefab
+  artifactKey: Guid(f5e82a095a05b2449a438057d976f9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_B_03.prefab using Guid(f5e82a095a05b2449a438057d976f9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e04627ada8cda97f3b3bf388da5be5e') in 0.022266 seconds
+  Import took 0.025263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_A_02.prefab
+  artifactKey: Guid(d94ccb0bfdfc14041a0f5f4fa9a697a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_A_02.prefab using Guid(d94ccb0bfdfc14041a0f5f4fa9a697a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e4540a8b5ab9638f15d03b4be3754ab') in 0.024807 seconds
+  Import took 0.027674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_B_01.prefab
+  artifactKey: Guid(407387324762870468d85ad61dd08f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_B_01.prefab using Guid(407387324762870468d85ad61dd08f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2363e07ace10636b6a714df4ab50a83e') in 0.021819 seconds
+  Import took 0.024693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/island_B_01.prefab
+  artifactKey: Guid(fde337a468e20014bafb68143b6a0063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/island_B_01.prefab using Guid(fde337a468e20014bafb68143b6a0063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00db625f78eec28af6f21a2dd24909ed') in 0.023795 seconds
+  Import took 0.026618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_D_05.prefab
+  artifactKey: Guid(c6e4bf8cb1d3aff41bc3f1660bd282c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_D_05.prefab using Guid(c6e4bf8cb1d3aff41bc3f1660bd282c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99f8823de3293b4d252892ae503fc6dc') in 0.022727 seconds
+  Import took 0.025538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_C_05.prefab
+  artifactKey: Guid(08ec380a0584c88439caf007d5c94115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_C_05.prefab using Guid(08ec380a0584c88439caf007d5c94115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf613686614fd99960db2df6ef460210') in 0.022483 seconds
+  Import took 0.025360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_D_03.prefab
+  artifactKey: Guid(68ca1c898abaf1b49b78977704fcd13b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_D_03.prefab using Guid(68ca1c898abaf1b49b78977704fcd13b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9df81ad094bcde4fc2fee084d5e51d07') in 0.021563 seconds
+  Import took 0.024323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_C_04.prefab
+  artifactKey: Guid(89ce3ce4888b02f4c9ec0c3af800712d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_C_04.prefab using Guid(89ce3ce4888b02f4c9ec0c3af800712d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef8bd057ebddb9fabf07cffc1c572e10') in 0.022342 seconds
+  Import took 0.025180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/rock_A_03.prefab
+  artifactKey: Guid(66bc18e6e0aee54408b69d6effc93dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/rock_A_03.prefab using Guid(66bc18e6e0aee54408b69d6effc93dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c0fe1d3500a44ce65f951cb492132c') in 0.021687 seconds
+  Import took 0.024640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_A_03.prefab
+  artifactKey: Guid(eef6afac8029c054897278b66d51f44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_A_03.prefab using Guid(eef6afac8029c054897278b66d51f44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42649f32cc9962c17477c9e99c2cce55') in 0.022182 seconds
+  Import took 0.025170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_C_03.prefab
+  artifactKey: Guid(c0435ed3ab095314096e3aa3beb97d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_C_03.prefab using Guid(c0435ed3ab095314096e3aa3beb97d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ba6140887e42ed961679554bdc38d70') in 0.022555 seconds
+  Import took 0.025504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/rock_A_01.prefab
+  artifactKey: Guid(55bd602794a4e9d41b9365fd695caa87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/rock_A_01.prefab using Guid(55bd602794a4e9d41b9365fd695caa87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76e54209a10d4062affb97d0fac5e434') in 0.021779 seconds
+  Import took 0.024639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/rock_B_04.prefab
+  artifactKey: Guid(45fb169e38e21fd4a968483cc9b0a7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/rock_B_04.prefab using Guid(45fb169e38e21fd4a968483cc9b0a7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d93b75d860eedb456c7957b8b77d29') in 0.021819 seconds
+  Import took 0.024718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_C_01.prefab
+  artifactKey: Guid(ea659b8744c4b674da8200d2e9ce546e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_C_01.prefab using Guid(ea659b8744c4b674da8200d2e9ce546e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d40db83fbf1a1c4b02eaeab6613a3fd') in 0.023144 seconds
+  Import took 0.026109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_A_04.prefab
+  artifactKey: Guid(797944aea48e77445be9c1913af4909b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_A_04.prefab using Guid(797944aea48e77445be9c1913af4909b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b7d9d0d95f8abc3a0a276794a08d5d') in 0.023332 seconds
+  Import took 0.026910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/island_A_03.prefab
+  artifactKey: Guid(0256786fc7c3f5e4a998fe97d557d21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/island_A_03.prefab using Guid(0256786fc7c3f5e4a998fe97d557d21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27aa1875aab60b1827837f9cc0e42aa0') in 0.022003 seconds
+  Import took 0.024893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_D_04.prefab
+  artifactKey: Guid(bc24363dfd6f63e4abfc725ebaa66e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_D_04.prefab using Guid(bc24363dfd6f63e4abfc725ebaa66e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '156be497f7672856aa2f35731901b752') in 0.021339 seconds
+  Import took 0.024122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_C_02.prefab
+  artifactKey: Guid(f0a291ea0f3501f438f285907ce69209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_C_02.prefab using Guid(f0a291ea0f3501f438f285907ce69209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40462deb1db20285ba3a0386294645c1') in 0.023114 seconds
+  Import took 0.025858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/island_B_02.prefab
+  artifactKey: Guid(87ba70ffeb5cf0042b9c74cf165df40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/island_B_02.prefab using Guid(87ba70ffeb5cf0042b9c74cf165df40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2afabf2d8c30550b9200c2a5695d090f') in 0.021921 seconds
+  Import took 0.024841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/step_B.prefab
+  artifactKey: Guid(5b87aaa8ae62bda4c9b439c47c58af88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/step_B.prefab using Guid(5b87aaa8ae62bda4c9b439c47c58af88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab3a29e248c996fe43e9337f5dac6c5') in 0.021929 seconds
+  Import took 0.024721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/island_B_03.prefab
+  artifactKey: Guid(7c24dd9faf5375b45a48fc2ec5611bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/island_B_03.prefab using Guid(7c24dd9faf5375b45a48fc2ec5611bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da5ebc01de657da1ce86f3f7aa5dfda') in 0.022744 seconds
+  Import took 0.025565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/island_C_03.prefab
+  artifactKey: Guid(e6f0ebdf9ad4d5f4fa7c752162158e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/island_C_03.prefab using Guid(e6f0ebdf9ad4d5f4fa7c752162158e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c86fd7c697e96bba8902425962cc781') in 0.021530 seconds
+  Import took 0.024303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/island_C_02.prefab
+  artifactKey: Guid(e8af5c3fb2315a346a436c1c610678bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/island_C_02.prefab using Guid(e8af5c3fb2315a346a436c1c610678bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f403d895efee545dacfe332a659c08') in 0.025449 seconds
+  Import took 0.028348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/island_A_02.prefab
+  artifactKey: Guid(38f73a770c57e2543a97af44a00b1d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/island_A_02.prefab using Guid(38f73a770c57e2543a97af44a00b1d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20ca2373eba215dffc264b04e11582f5') in 0.021181 seconds
+  Import took 0.024203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/rock_A_02.prefab
+  artifactKey: Guid(c0d2547f98835844d92f3d0708f62278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/rock_A_02.prefab using Guid(c0d2547f98835844d92f3d0708f62278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7a3b7f3811a4982bbe037686c01dfec') in 0.020670 seconds
+  Import took 0.023454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/island_D_01.prefab
+  artifactKey: Guid(d4de3ef49b2bacd49b5323211ec53005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/island_D_01.prefab using Guid(d4de3ef49b2bacd49b5323211ec53005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fef9473422c037598b05048970019ce') in 0.022098 seconds
+  Import took 0.025758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/step_C.prefab
+  artifactKey: Guid(70719b92defa99e4193b6ccf402aee0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/step_C.prefab using Guid(70719b92defa99e4193b6ccf402aee0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b76e998077de1dc2495bf24cd02802c') in 0.022603 seconds
+  Import took 0.026446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_D_02.prefab
+  artifactKey: Guid(947a23021b21047489b507ed801c98d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_D_02.prefab using Guid(947a23021b21047489b507ed801c98d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c68671e63dfb7e17b20665f87b93ead5') in 0.021182 seconds
+  Import took 0.024110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_A_01.prefab
+  artifactKey: Guid(a9adbf0dbd8731d40ba6ae6252f9e07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_A_01.prefab using Guid(a9adbf0dbd8731d40ba6ae6252f9e07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d950382f5072a250c4e9dbc63bce98d') in 0.021295 seconds
+  Import took 0.024088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_D_01.prefab
+  artifactKey: Guid(4876715f92d30a040a6785bfb1a71c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_D_01.prefab using Guid(4876715f92d30a040a6785bfb1a71c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b65494f01055d2cb0ccf03df6aabb02') in 0.021647 seconds
+  Import took 0.024566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/rock_B_06.prefab
+  artifactKey: Guid(71d9ac8f41d09d143a75c692c68b1ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/rock_B_06.prefab using Guid(71d9ac8f41d09d143a75c692c68b1ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb9a9d6f67027d06cf70298450a74f9') in 0.028517 seconds
+  Import took 0.031457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_B_04.prefab
+  artifactKey: Guid(785b55d1ccd47034e8d3505780c6e9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_B_04.prefab using Guid(785b55d1ccd47034e8d3505780c6e9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01ee5d3f500291aa8d622b16d2760df3') in 0.020365 seconds
+  Import took 0.023179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/island_D_03.prefab
+  artifactKey: Guid(6ce0ca3dc6ddf3346b91b194af53e741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/island_D_03.prefab using Guid(6ce0ca3dc6ddf3346b91b194af53e741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02d69ed767825c9218c3d9588bad378d') in 0.022853 seconds
+  Import took 0.025689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_B_05.prefab
+  artifactKey: Guid(1a08afd8c7473dd4d874c74ebf22bafd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_B_05.prefab using Guid(1a08afd8c7473dd4d874c74ebf22bafd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f57f617b24a634e6acf8ddc7baec4ba') in 0.022771 seconds
+  Import took 0.025538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_B_02.prefab
+  artifactKey: Guid(fcdf142f3b1adf84a8d03ef514947dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_B_02.prefab using Guid(fcdf142f3b1adf84a8d03ef514947dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ffce4d8d2445a6e27e60ba96847ff1') in 0.024423 seconds
+  Import took 0.027433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/step_D.prefab
+  artifactKey: Guid(27f5ebdec57210c4ab71c14104508ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/step_D.prefab using Guid(27f5ebdec57210c4ab71c14104508ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22c01aecc9d9f80fb1241d6791acb402') in 0.022114 seconds
+  Import took 0.024879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_A_05.prefab
+  artifactKey: Guid(6071f08f901cb7c488d79e521b34857e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_A_05.prefab using Guid(6071f08f901cb7c488d79e521b34857e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0475fcca75c4bb50d7b165514f6889df') in 0.023281 seconds
+  Import took 0.026226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/island_C_01.prefab
+  artifactKey: Guid(8b404e5e7b6ccea4895a317b2617cc89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/island_C_01.prefab using Guid(8b404e5e7b6ccea4895a317b2617cc89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a49c0d8550d80ba28ab66c5e960c08') in 0.022756 seconds
+  Import took 0.025768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/step_A.prefab
+  artifactKey: Guid(07a907074ee5b0d40a8b2b0f9ebf8f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/step_A.prefab using Guid(07a907074ee5b0d40a8b2b0f9ebf8f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd96acdd4bb7d124f986b1d9f0de89f5') in 0.021134 seconds
+  Import took 0.024030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2748.565960 seconds.
+  path: Assets/Customizable Skybox/Scenes
+  artifactKey: Guid(4c87f64bb2d3ca445ac1badce6b5c0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable Skybox/Scenes using Guid(4c87f64bb2d3ca445ac1badce6b5c0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '788f75c9d97b0f1608a5af600c82eee4') in 0.016447 seconds
+  Import took 0.019993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.487713 seconds.
+  path: Assets/Customizable Skybox/Stylized Sky
+  artifactKey: Guid(135450dfab8085c4ebd673f58f013df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable Skybox/Stylized Sky using Guid(135450dfab8085c4ebd673f58f013df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '757736a37478351dd6ba549bedb3a5f8') in 0.014432 seconds
+  Import took 0.017339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.528905 seconds.
+  path: Assets/Customizable Skybox/Materials
+  artifactKey: Guid(ea580a49e393d474a8246aed4e6421fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable Skybox/Materials using Guid(ea580a49e393d474a8246aed4e6421fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f04ca72b67b63508064ea4a085528c4') in 0.014195 seconds
+  Import took 0.017205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.868871 seconds.
+  path: Assets/Customizable Skybox/Model
+  artifactKey: Guid(b3a8b5ae7212a5e469e5295bd49eb2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable Skybox/Model using Guid(b3a8b5ae7212a5e469e5295bd49eb2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59debe7e1c861745a2d45a3411421e9e') in 0.014115 seconds
+  Import took 0.017118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059680 seconds.
+  path: Assets/Customizable Skybox/Model/Low Poly Island.fbx
+  artifactKey: Guid(9e1cb89bae143d046bb9dba32b57bed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable Skybox/Model/Low Poly Island.fbx using Guid(9e1cb89bae143d046bb9dba32b57bed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c07dc49ab1a86871cd116d8dcacf52d') in 0.312276 seconds
+  Import took 0.316061 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001446 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.368 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.0 MB.
+System memory in use after: 61.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1575.
+Total: 2.842600 ms (FindLiveObjects: 0.192100 ms CreateObjectMapping: 0.074500 ms MarkObjects: 2.477600 ms  DeleteObjects: 0.096600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 734.921072 seconds.
+  path: Assets/Customizable Skybox/Stylized Sky/Materials/lol-removebg-preview.png
+  artifactKey: Guid(320362fe026df4448b96c4b1464828ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable Skybox/Stylized Sky/Materials/lol-removebg-preview.png using Guid(320362fe026df4448b96c4b1464828ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '464afdfb3bfce10f47bbfecebd4f6f28') in 0.117086 seconds
+  Import took 0.120902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.467120 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(bebf590118d36bd458367d433e2a385f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(bebf590118d36bd458367d433e2a385f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef0f8f0743805508914e9e43fde01b38') in 0.019955 seconds
+  Import took 0.023102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.797516 seconds.
+  path: Assets/Prefabs/lol-removebg-preview.png
+  artifactKey: Guid(cb0f66710eb8fcc4ca0447f3f5e08c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/lol-removebg-preview.png using Guid(cb0f66710eb8fcc4ca0447f3f5e08c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f32e0815775805fa96cabdafa4c50d') in 0.012011 seconds
+  Import took 0.015202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.994405 seconds.
+  path: Assets/Prefabs/lol-removebg-preview.png
+  artifactKey: Guid(cb0f66710eb8fcc4ca0447f3f5e08c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/lol-removebg-preview.png using Guid(cb0f66710eb8fcc4ca0447f3f5e08c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58870c631c3f1d19ba518215cb1668fa') in 0.024771 seconds
+  Import took 0.028410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 92.834337 seconds.
+  path: Assets/NewBehaviourScript.cs
+  artifactKey: Guid(96863fcceeeedf244bb93d4423fcf08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewBehaviourScript.cs using Guid(96863fcceeeedf244bb93d4423fcf08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0530bdabfa73f5fc95ce9b443b810abb') in 0.049188 seconds
+  Import took 0.052808 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001384 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.362 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.0 MB.
+System memory in use after: 61.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1580.
+Total: 2.364800 ms (FindLiveObjects: 0.169600 ms CreateObjectMapping: 0.065100 ms MarkObjects: 2.040100 ms  DeleteObjects: 0.088200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.910723 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(f799760088702e049ba568a54f869a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(f799760088702e049ba568a54f869a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8770c021b7ffaec36af806dde7e2f68f') in 0.024406 seconds
+  Import took 0.027698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000867 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(f799760088702e049ba568a54f869a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(f799760088702e049ba568a54f869a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8770c021b7ffaec36af806dde7e2f68f') in 0.004834 seconds
+  Import took 0.007453 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001246 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.392 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.1 MB.
+System memory in use after: 61.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1583.
+Total: 3.591400 ms (FindLiveObjects: 0.203000 ms CreateObjectMapping: 0.066500 ms MarkObjects: 3.226400 ms  DeleteObjects: 0.092800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.653189 seconds.
+  path: Assets/Scripts/DragDrop.cs
+  artifactKey: Guid(96863fcceeeedf244bb93d4423fcf08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DragDrop.cs using Guid(96863fcceeeedf244bb93d4423fcf08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a300d55ab6a3afcdd6881282c60042f0') in 0.016861 seconds
+  Import took 0.019882 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001317 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.374 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.1 MB.
+System memory in use after: 61.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1586.
+Total: 2.424800 ms (FindLiveObjects: 0.185100 ms CreateObjectMapping: 0.067300 ms MarkObjects: 2.096100 ms  DeleteObjects: 0.074500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 124.209820 seconds.
+  path: Assets/Scripts/DragDrop.cs
+  artifactKey: Guid(96863fcceeeedf244bb93d4423fcf08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DragDrop.cs using Guid(96863fcceeeedf244bb93d4423fcf08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b15851a2b72189ee1c6227eec3cf4a3b') in 0.008874 seconds
+  Import took 0.012422 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001357 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.349 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.1 MB.
+System memory in use after: 61.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1589.
+Total: 2.398200 ms (FindLiveObjects: 0.172800 ms CreateObjectMapping: 0.067100 ms MarkObjects: 2.074700 ms  DeleteObjects: 0.081800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 290.205754 seconds.
+  path: Assets/Scripts/DragDrop.cs
+  artifactKey: Guid(96863fcceeeedf244bb93d4423fcf08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DragDrop.cs using Guid(96863fcceeeedf244bb93d4423fcf08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07f3315b14cd21919ba0593180c75ad6') in 0.008714 seconds
+  Import took 0.011376 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001372 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.359 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.1 MB.
+System memory in use after: 61.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1592.
+Total: 2.416600 ms (FindLiveObjects: 0.172500 ms CreateObjectMapping: 0.067400 ms MarkObjects: 2.092100 ms  DeleteObjects: 0.082800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001409 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.303 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.1 MB.
+System memory in use after: 61.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1595.
+Total: 2.599700 ms (FindLiveObjects: 0.176400 ms CreateObjectMapping: 0.079300 ms MarkObjects: 2.235100 ms  DeleteObjects: 0.106800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001472 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.451 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.1 MB.
+System memory in use after: 61.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1598.
+Total: 2.402600 ms (FindLiveObjects: 0.170300 ms CreateObjectMapping: 0.066900 ms MarkObjects: 2.081400 ms  DeleteObjects: 0.082200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001401 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.415 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.1 MB.
+System memory in use after: 61.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1601.
+Total: 2.421500 ms (FindLiveObjects: 0.175100 ms CreateObjectMapping: 0.067800 ms MarkObjects: 2.068600 ms  DeleteObjects: 0.107800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001148 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.331 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.1 MB.
+System memory in use after: 61.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1604.
+Total: 2.457400 ms (FindLiveObjects: 0.187400 ms CreateObjectMapping: 0.064400 ms MarkObjects: 2.102700 ms  DeleteObjects: 0.101200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001365 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.444 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.1 MB.
+System memory in use after: 61.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1607.
+Total: 2.783200 ms (FindLiveObjects: 0.269800 ms CreateObjectMapping: 0.070900 ms MarkObjects: 2.346700 ms  DeleteObjects: 0.092500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001306 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.387 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.1 MB.
+System memory in use after: 61.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1610.
+Total: 2.383900 ms (FindLiveObjects: 0.159200 ms CreateObjectMapping: 0.065400 ms MarkObjects: 2.071100 ms  DeleteObjects: 0.086200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001406 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.321 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.2 MB.
+System memory in use after: 61.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1613.
+Total: 2.350800 ms (FindLiveObjects: 0.160100 ms CreateObjectMapping: 0.067700 ms MarkObjects: 2.046000 ms  DeleteObjects: 0.075200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001347 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.493 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.2 MB.
+System memory in use after: 61.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1616.
+Total: 2.498800 ms (FindLiveObjects: 0.173600 ms CreateObjectMapping: 0.066500 ms MarkObjects: 2.171400 ms  DeleteObjects: 0.085500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001280 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.337 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.2 MB.
+System memory in use after: 61.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1619.
+Total: 2.582200 ms (FindLiveObjects: 0.205200 ms CreateObjectMapping: 0.066300 ms MarkObjects: 2.226800 ms  DeleteObjects: 0.082100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001341 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.378 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.2 MB.
+System memory in use after: 61.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1622.
+Total: 2.468100 ms (FindLiveObjects: 0.187500 ms CreateObjectMapping: 0.066200 ms MarkObjects: 2.136100 ms  DeleteObjects: 0.076300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001434 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.342 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.2 MB.
+System memory in use after: 61.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1625.
+Total: 2.607500 ms (FindLiveObjects: 0.174500 ms CreateObjectMapping: 0.064500 ms MarkObjects: 2.270400 ms  DeleteObjects: 0.096000 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
