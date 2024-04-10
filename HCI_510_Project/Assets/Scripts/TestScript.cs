@@ -2,9 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using MoonSharp.Interpreter;
+using System.IO;
 
 public class TestScript : MonoBehaviour
 {
+    public string result = "";
+    public string myScript;
+    Script script;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,10 +18,36 @@ public class TestScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-		Debug.Log("Val 1: " + MoonSharpFactorial());
-		Debug.Log(", Val 2: " + MoonSharpFactorial2());
-		Debug.Log(", Val 3: " + MoonSharpFactorial3());
+		//Debug.Log("Val 1: " + MoonSharpFactorial());
+		//Debug.Log(", Val 2: " + MoonSharpFactorial2());
+		//Debug.Log(", Val 3: " + MoonSharpFactorial3());
     }
+    public void initScript(string ScriptText)
+    {
+        script = new Script();
+        myScript = ScriptText;
+        script.DoString(myScript);
+    }
+
+    public void RunScript()
+    {
+        script.Globals["result"] = result;
+
+        DynValue val = script.Call(script.Globals["Run"]);
+
+        result = script.Globals.Get("result").CastToString();
+
+    }
+
+    public void initScriptFromFile(string fileName)
+    {
+        script = new Script();
+        StreamReader sr = new StreamReader(fileName);
+        string tmpString = sr.ReadToEnd();
+        script.DoString(tmpString);
+    }
+
+    /*
     double MoonSharpFactorial()
     {
         string scriptCode = @"    
@@ -78,5 +108,7 @@ public class TestScript : MonoBehaviour
         DynValue luaFactFunction = script.Globals.Get("fact");
         DynValue res = script.Call(luaFactFunction, 4);
         return res.Number;
-    }
+    }*/
+
+
 }

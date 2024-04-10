@@ -15,11 +15,11 @@ C:/Users/agali1/Documents/HCI510/HCI510_GameMockup/HCI_510_Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53236
+50264
 Successfully changed project path to: C:/Users/agali1/Documents/HCI510/HCI510_GameMockup/HCI_510_Project
 C:/Users/agali1/Documents/HCI510/HCI510_GameMockup/HCI_510_Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 65.78 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 101.68 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.3f1 (76626098c1c4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Resources/UnitySubsystems
@@ -35,103 +35,557 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56232
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56944
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004292 seconds.
+Registered in 0.426577 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 59.33 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 55.38 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.196 seconds
+- Completed reload, in  8.198 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002421 seconds.
+Registered in 0.236334 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001546DB256F0 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001D6FCE4D080 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001546D433010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001D6FC6BB010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001546D463620 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001D5420D1480 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001546D3D21B0 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001D540A93C60 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001546D700020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001D541461020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000015472F28A40 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001D6FCC37E30 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001546D700020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001D6FC576030 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001546D3D21B0 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001D6FC6CE420 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000015472C55420 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001D541461020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001546D463620 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001D540CC2420 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.711 seconds
+- Completed reload, in  4.806 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1120 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 57.8 MB.
 System memory in use after: 57.8 MB.
 
 Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1565.
-Total: 2.864600 ms (FindLiveObjects: 0.340700 ms CreateObjectMapping: 0.102400 ms MarkObjects: 2.268200 ms  DeleteObjects: 0.150300 ms)
+Total: 2.569800 ms (FindLiveObjects: 0.188900 ms CreateObjectMapping: 0.069900 ms MarkObjects: 2.163700 ms  DeleteObjects: 0.145100 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/TestScript.cs
-  artifactKey: Guid(eebc6a919a4a16a43af61310517f35f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/TestScript.cs using Guid(eebc6a919a4a16a43af61310517f35f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fcbdd05a31637a1a5a3f784b518294a') in 0.063649 seconds
-  Import took 0.067604 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 57.699046 seconds.
-  path: Assets/Scripts/TestScript.cs
-  artifactKey: Guid(eebc6a919a4a16a43af61310517f35f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/TestScript.cs using Guid(eebc6a919a4a16a43af61310517f35f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b6409a15134923b80e7237504e7625d') in 0.005233 seconds
-  Import took 0.008452 seconds .
+  path: Assets/Scripts/DragDrop.cs
+  artifactKey: Guid(96863fcceeeedf244bb93d4423fcf08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DragDrop.cs using Guid(96863fcceeeedf244bb93d4423fcf08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49f0f65229836eb58d613bb0b1ba1f4f') in 0.079884 seconds
+  Import took 0.082967 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002411 seconds.
+Registered in 0.002168 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000015474589470 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001D542023CE0 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001546D585C60 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001D5416BA010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000015471646E20 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001D6FC8B8760 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000154745C1580 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001D540CC7530 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000015471AFD020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001D6FC980EC0 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001546D585C60 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001D5416BA010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000015472F0E020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001D540B69020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001546D585C60 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001D542C9B020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000154746A90D0 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001D5416BA010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000015472DF7B90 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001D540F28050 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.397 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.6 MB.
+System memory in use after: 57.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1568.
+Total: 2.400900 ms (FindLiveObjects: 0.159300 ms CreateObjectMapping: 0.066800 ms MarkObjects: 2.081200 ms  DeleteObjects: 0.091500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002642 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D6FC59C650 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D541DFC010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D5443CBD70 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D5440EC010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D5411F4020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D6FCB46030 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D542BC5010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D5440EC010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D541124000 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D5443CBD70 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.465 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.6 MB.
+System memory in use after: 57.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1571.
+Total: 2.566300 ms (FindLiveObjects: 0.193800 ms CreateObjectMapping: 0.075000 ms MarkObjects: 2.201400 ms  DeleteObjects: 0.094300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002462 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D6FC8F4C80 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D543A88020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D543E44020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D542C9B020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D542843FC0 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D544312020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D540B69020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D542C9B020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D542564020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D5442AF720 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.470 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.6 MB.
+System memory in use after: 57.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1574.
+Total: 3.224700 ms (FindLiveObjects: 0.423500 ms CreateObjectMapping: 0.110800 ms MarkObjects: 2.606700 ms  DeleteObjects: 0.080800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002468 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D54177B060 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D54190A030 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D54418B010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D540EDE420 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D544453FD0 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D54190A030 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D5447B4DD0 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D540EDE420 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D540A79C50 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D54418B010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.717 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.6 MB.
+System memory in use after: 57.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1577.
+Total: 2.534600 ms (FindLiveObjects: 0.178100 ms CreateObjectMapping: 0.078200 ms MarkObjects: 2.188800 ms  DeleteObjects: 0.087400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002296 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D5459C6D40 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D544485020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D54418B010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D544F6FDF0 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D541DA8010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D544485020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D5410F4010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D544F6FDF0 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D544FD4F10 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D543E44020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.459 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.6 MB.
+System memory in use after: 57.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1580.
+Total: 2.485700 ms (FindLiveObjects: 0.161800 ms CreateObjectMapping: 0.067100 ms MarkObjects: 2.174400 ms  DeleteObjects: 0.080300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002393 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D542A8E430 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D5447C8020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D5439FA5B0 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D541F90030 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D544F7C100 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D5447C8020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D540F64030 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D542C9B020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D542564020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D544418010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.472 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.6 MB.
+System memory in use after: 57.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1583.
+Total: 2.484500 ms (FindLiveObjects: 0.177100 ms CreateObjectMapping: 0.067600 ms MarkObjects: 2.156200 ms  DeleteObjects: 0.081400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002458 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D6FCB0CA00 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D540D65020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D5439FA5B0 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D54427C030 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D545B00050 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D545D98040 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D5410F4010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D542C9B020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D5416BA010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D544418010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.420 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.6 MB.
+System memory in use after: 59.1 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1586.
+Total: 3.043300 ms (FindLiveObjects: 0.177400 ms CreateObjectMapping: 0.064500 ms MarkObjects: 2.251300 ms  DeleteObjects: 0.548400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2850.639537 seconds.
+  path: Assets/Scripts/TestScript.cs
+  artifactKey: Guid(eebc6a919a4a16a43af61310517f35f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TestScript.cs using Guid(eebc6a919a4a16a43af61310517f35f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90d8a704cc1a4d9df13bef77e5cbba21') in 0.029020 seconds
+  Import took 0.032767 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002407 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D542A8E430 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D54505B020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D54418B010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D5439F4020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D544E7C040 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D542877020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D5410F4010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D5439F4020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D5416BA010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D5445F6020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.476 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.6 MB.
+System memory in use after: 59.1 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1589.
+Total: 3.001700 ms (FindLiveObjects: 0.188100 ms CreateObjectMapping: 0.064200 ms MarkObjects: 2.204200 ms  DeleteObjects: 0.543400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 773.863577 seconds.
+  path: Assets/Scripts/TestScript.cs
+  artifactKey: Guid(eebc6a919a4a16a43af61310517f35f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TestScript.cs using Guid(eebc6a919a4a16a43af61310517f35f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359ecf2a5899ece509ec54063a4ca7df') in 0.015133 seconds
+  Import took 0.017646 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002426 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D54177B060 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D54573E020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D54418B010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D54504FE20 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D545C72040 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D5426FF020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D5410F4010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D542C9B020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D5416BA010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D5445F6020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.362 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.7 MB.
+System memory in use after: 59.1 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1592.
+Total: 3.261500 ms (FindLiveObjects: 0.173200 ms CreateObjectMapping: 0.066400 ms MarkObjects: 2.365900 ms  DeleteObjects: 0.654100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 403.695560 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(f799760088702e049ba568a54f869a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(f799760088702e049ba568a54f869a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8770c021b7ffaec36af806dde7e2f68f') in 0.018761 seconds
+  Import took 0.022060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.255430 seconds.
+  path: Assets/Scripts/GameScript.cs
+  artifactKey: Guid(29f48a793d5e7ee49a212d83984049d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameScript.cs using Guid(29f48a793d5e7ee49a212d83984049d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ce4e255ecf528dbc02c9169e447a4ec') in 0.015183 seconds
+  Import took 0.018040 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002285 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D542CA4E50 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D545345020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D5419BC030 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D545C82050 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D546288020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D5445DE010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D5410F4010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D54504D010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D545C51010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D544446930 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.480 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.7 MB.
+System memory in use after: 59.1 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1596.
+Total: 3.124300 ms (FindLiveObjects: 0.191300 ms CreateObjectMapping: 0.076200 ms MarkObjects: 2.305800 ms  DeleteObjects: 0.549000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002335 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D5445E7E40 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D544252020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D544362030 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D545CF5010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D546234030 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D6FCADE010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D5410F4010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D545CF5010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D5416BA010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D544418010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
@@ -142,278 +596,170 @@ RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
 - Completed reload, in  1.440 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.6 MB.
-System memory in use after: 57.7 MB.
+Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.7 MB.
+System memory in use after: 59.1 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1568.
-Total: 2.707900 ms (FindLiveObjects: 0.197000 ms CreateObjectMapping: 0.067200 ms MarkObjects: 2.313200 ms  DeleteObjects: 0.128200 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1599.
+Total: 3.388800 ms (FindLiveObjects: 0.314700 ms CreateObjectMapping: 0.067500 ms MarkObjects: 2.328600 ms  DeleteObjects: 0.675800 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002531 seconds.
+Registered in 0.002484 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000015474182520 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001D54418EB10 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000015474A9AD10 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001D545345020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000154950E5470 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001D5419BC030 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001547193B060 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001D6FC5BE940 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001547173D010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001D54526AA00 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001547444DF80 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001D54435A020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001547403C0D0 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001D5410F4010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000015473B22570 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001D6FC5BE940 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000015472311030 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001D5416BA010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000015471E9C010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001D5442FCA60 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.376 seconds
+- Completed reload, in  1.389 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.6 MB.
-System memory in use after: 57.7 MB.
+Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.7 MB.
+System memory in use after: 59.1 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1571.
-Total: 2.499400 ms (FindLiveObjects: 0.172500 ms CreateObjectMapping: 0.068600 ms MarkObjects: 2.158800 ms  DeleteObjects: 0.097400 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1602.
+Total: 3.157200 ms (FindLiveObjects: 0.218500 ms CreateObjectMapping: 0.076500 ms MarkObjects: 2.273900 ms  DeleteObjects: 0.586400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 274.842199 seconds.
-  path: Assets/Scripts/TestScript.cs
-  artifactKey: Guid(eebc6a919a4a16a43af61310517f35f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/TestScript.cs using Guid(eebc6a919a4a16a43af61310517f35f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f73079022a9a906c23754ada8d08402f') in 0.011133 seconds
-  Import took 0.013820 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002404 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000154717CF030 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000015473F4D550 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000015473BD5700 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001547444DF80 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000154743B6E30 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000015473F4D550 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000015473549020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001547444DF80 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000015472311030 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000015471E9C010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.383 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.6 MB.
-System memory in use after: 57.7 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1574.
-Total: 3.024700 ms (FindLiveObjects: 0.185600 ms CreateObjectMapping: 0.067500 ms MarkObjects: 2.676500 ms  DeleteObjects: 0.093000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002418 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000015494FF5D50 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000015471AC9410 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000015473C2E020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000154741F8910 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000015474204A60 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001547444DF80 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000015472F0E020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000154741F8910 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001546D19C040 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000015474A92360 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.367 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.6 MB.
-System memory in use after: 57.7 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1577.
-Total: 2.404000 ms (FindLiveObjects: 0.159700 ms CreateObjectMapping: 0.066800 ms MarkObjects: 2.075700 ms  DeleteObjects: 0.100100 ms)
+  Time since last request: 1188.298677 seconds.
+  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Mushroom4.fbx
+  artifactKey: Guid(701bb4773c0e3c14ba476ccd97324ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Mushroom4.fbx using Guid(701bb4773c0e3c14ba476ccd97324ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9502849ae6cfca4b3990b466a0e6fbb') in 0.408769 seconds
+  Import took 0.416309 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 87.897607 seconds.
-  path: Assets/Scripts/TestScript.cs
-  artifactKey: Guid(eebc6a919a4a16a43af61310517f35f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/TestScript.cs using Guid(eebc6a919a4a16a43af61310517f35f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec0039cd5f187c5b71266e0e446f555') in 0.008132 seconds
-  Import took 0.010675 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002441 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000015494FF5D50 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000015472FA22F0 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001546D59F010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000015471F4E030 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000154744C5660 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000015471827020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000015473549020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001546DB1C010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001547425EC30 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000154741DB5D0 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.331 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.7 MB.
-System memory in use after: 57.7 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1580.
-Total: 2.514600 ms (FindLiveObjects: 0.164500 ms CreateObjectMapping: 0.067500 ms MarkObjects: 2.188900 ms  DeleteObjects: 0.091700 ms)
+  Time since last request: 0.000316 seconds.
+  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_SmallWide_Winter.fbx
+  artifactKey: Guid(113fd9655d996b94f966b82dbaa448bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_SmallWide_Winter.fbx using Guid(113fd9655d996b94f966b82dbaa448bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce2073e6242dd3c8bf6eed1d7d6e9399') in 0.048659 seconds
+  Import took 0.051642 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 347.204660 seconds.
-  path: Assets/Scripts/TestScript.cs
-  artifactKey: Guid(eebc6a919a4a16a43af61310517f35f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/TestScript.cs using Guid(eebc6a919a4a16a43af61310517f35f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '022a6a07b0689eedb572bc3cc1ced3b7') in 0.008511 seconds
-  Import took 0.011035 seconds .
+  Time since last request: 0.000371 seconds.
+  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Mushroom3.fbx
+  artifactKey: Guid(b9257a6715ffeae41bfdb752861b989f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Mushroom3.fbx using Guid(b9257a6715ffeae41bfdb752861b989f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd09112b3279a9876268b2e8a53f97837') in 0.055881 seconds
+  Import took 0.058812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/RockCanyon004.fbx
+  artifactKey: Guid(8a01f2fa7e726604ba2bbe59a8ab3e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/RockCanyon004.fbx using Guid(8a01f2fa7e726604ba2bbe59a8ab3e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b06c6863bee00c21b28469a2994918') in 0.053527 seconds
+  Import took 0.056522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Mushroom3.fbx
+  artifactKey: Guid(b9257a6715ffeae41bfdb752861b989f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Mushroom3.fbx using Guid(b9257a6715ffeae41bfdb752861b989f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd09112b3279a9876268b2e8a53f97837') in 0.037418 seconds
+  Import took 0.040309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/RockMoss1.fbx
+  artifactKey: Guid(aed4c3981a84aad4d9f48335fef1a4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/RockMoss1.fbx using Guid(aed4c3981a84aad4d9f48335fef1a4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b5a8b67a67f078e91be40a8f4f6b112') in 0.053890 seconds
+  Import took 0.056717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_Tall_Summer.fbx
+  artifactKey: Guid(8aed1ee6de482104398343e2285e22b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_Tall_Summer.fbx using Guid(8aed1ee6de482104398343e2285e22b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c9b4f697d3e25c57814e2fca35da680') in 0.056762 seconds
+  Import took 0.059571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_Tall_SumAut.fbx
+  artifactKey: Guid(9c1b80ac22fa2794c8c3faa0fda4a3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_Tall_SumAut.fbx using Guid(9c1b80ac22fa2794c8c3faa0fda4a3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b426e4ab85d5abd883dd030d4e016b9') in 0.050519 seconds
+  Import took 0.053418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_Tall_Summer.fbx
+  artifactKey: Guid(8aed1ee6de482104398343e2285e22b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_Tall_Summer.fbx using Guid(8aed1ee6de482104398343e2285e22b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c9b4f697d3e25c57814e2fca35da680') in 0.034763 seconds
+  Import took 0.037520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Mushroom2.fbx
+  artifactKey: Guid(fca5eebacfcd027439b1a55ccbec7c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Mushroom2.fbx using Guid(fca5eebacfcd027439b1a55ccbec7c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cff6fa4541f3d53ef6e107bc092e3403') in 0.056063 seconds
+  Import took 0.058886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Mushroom4.fbx
+  artifactKey: Guid(701bb4773c0e3c14ba476ccd97324ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Mushroom4.fbx using Guid(701bb4773c0e3c14ba476ccd97324ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9502849ae6cfca4b3990b466a0e6fbb') in 0.042514 seconds
+  Import took 0.045333 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002564 seconds.
+Registered in 0.002494 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000154744C0230 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001D545AE5E50 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000154744F9020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001D5456CA050 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000015473C2E020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001D543DD90A0 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000015473E13BE0 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001D545A48010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000015495740040 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001D5455C4020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000015471827020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001D545A14010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000015473549020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001D5410F4010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000015473E13BE0 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001D545A48010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000015472311030 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001D5416BA010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000015471E9C010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.382 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.7 MB.
-System memory in use after: 57.7 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1583.
-Total: 2.539900 ms (FindLiveObjects: 0.170700 ms CreateObjectMapping: 0.077700 ms MarkObjects: 2.191600 ms  DeleteObjects: 0.097600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002412 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000015474182520 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000154747BD020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000015471AC32E0 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000015471EF2050 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001549599E040 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000154742EB6D0 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000015474A05730 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001546DAE4030 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000015471514020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000154950E5470 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001D6FCAC3020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
@@ -422,58 +768,230 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.382 seconds
+- Completed reload, in  1.490 seconds
 Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.2 MB.
+System memory in use after: 62.6 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1648.
+Total: 3.023500 ms (FindLiveObjects: 0.200900 ms CreateObjectMapping: 0.070300 ms MarkObjects: 2.187600 ms  DeleteObjects: 0.562800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002311 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D545D65BF0 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D545479010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D5441BAEB0 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D5456CA050 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D545A66FF0 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D545479010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D5410F4010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D5456CA050 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D5416BA010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D5419BC030 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.531 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.2 MB.
+System memory in use after: 62.6 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1651.
+Total: 2.886300 ms (FindLiveObjects: 0.196800 ms CreateObjectMapping: 0.069000 ms MarkObjects: 2.062300 ms  DeleteObjects: 0.556100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002433 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D545F34660 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D6FCC27020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D545B3C020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D5456CA050 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D54597D950 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D541473010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D5410F4010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D5456CA050 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D541DEA020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D6FCAC3020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.7 MB.
-System memory in use after: 57.7 MB.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.555 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.2 MB.
+System memory in use after: 62.6 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1586.
-Total: 2.418100 ms (FindLiveObjects: 0.201900 ms CreateObjectMapping: 0.066800 ms MarkObjects: 2.053500 ms  DeleteObjects: 0.094000 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1654.
+Total: 3.210400 ms (FindLiveObjects: 0.183100 ms CreateObjectMapping: 0.068100 ms MarkObjects: 2.331900 ms  DeleteObjects: 0.625300 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002448 seconds.
+Registered in 0.002451 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000154744C0230 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001D6FCEBB990 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001546D585C60 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001D540B7B010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000015471AC32E0 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001D545B3C020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000015471EF2050 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001D5447C8020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000015474A2BC10 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001D546718030 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001547404E010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001D541473010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000015473549020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001D5410F4010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000015495980020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001D5456CA050 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000015472840080 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001D5416BA010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000154748DD010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001D5456F6DA0 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.340 seconds
+- Completed reload, in  1.466 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.7 MB.
-System memory in use after: 57.7 MB.
+Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.2 MB.
+System memory in use after: 62.6 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1589.
-Total: 2.627500 ms (FindLiveObjects: 0.161600 ms CreateObjectMapping: 0.065600 ms MarkObjects: 2.297400 ms  DeleteObjects: 0.100400 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1657.
+Total: 2.944000 ms (FindLiveObjects: 0.240100 ms CreateObjectMapping: 0.078800 ms MarkObjects: 2.058700 ms  DeleteObjects: 0.564200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002406 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D54147CE40 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D5459AF020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D5441FBE60 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D54567A020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D546213F20 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D546629030 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D5410F4010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D54567A020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D5416BA010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D6FCAC3020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.425 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.2 MB.
+System memory in use after: 62.6 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1660.
+Total: 3.172000 ms (FindLiveObjects: 0.301100 ms CreateObjectMapping: 0.097500 ms MarkObjects: 2.196800 ms  DeleteObjects: 0.574300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002483 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D545E5DE60 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D546627020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D546611090 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D546627020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D5472A0080 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D546627020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D5410F4010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D546627020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D5416BA010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D541699030 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.435 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.2 MB.
+System memory in use after: 62.6 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1663.
+Total: 3.045100 ms (FindLiveObjects: 0.192900 ms CreateObjectMapping: 0.066900 ms MarkObjects: 2.182800 ms  DeleteObjects: 0.600300 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
