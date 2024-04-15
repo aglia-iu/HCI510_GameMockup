@@ -6,7 +6,7 @@ using System.IO;
 
 public class TestScript : MonoBehaviour
 {
-    public string result = "";
+    public string result = "LOL";
     public string myScript;
     Script script;
     // Start is called before the first frame update
@@ -31,11 +31,13 @@ public class TestScript : MonoBehaviour
 
     public void RunScript()
     {
-        script.Globals["result"] = result;
+        script.Globals["result"] = result; // Come back to this!!
+        Debug.Log(script.Globals["result"]);
+        DynValue val = script.Call(script.Globals["fact"]);
+        result = val.CastToString(); // Come back to this!!
+        Debug.Log(val.CastToString());
+        Debug.Log("Script complete");
 
-        DynValue val = script.Call(script.Globals["Run"]);
-
-        result = script.Globals.Get("result").CastToString();
 
     }
 

@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.3f1 (76626098c1c4) revision 7758432'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Enterprise; OS build 19045.4170; Version 2009; 64bit' Language: 'en' Physical Memory: 32693 MB
+OS: 'Windows 10 Home; OS build 19045.4170; Version 2009; 64bit' Language: 'en' Physical Memory: 11975 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,206 +11,513 @@ C:\Program Files\Unity\Hub\Editor\2020.3.3f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/agali1/Documents/HCI510/HCI510_GameMockup/HCI_510_Project
+C:/Users/leedle/Documents/VRAC/Thesis/HCI510_GameMockup/HCI_510_Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50264
-Successfully changed project path to: C:/Users/agali1/Documents/HCI510/HCI510_GameMockup/HCI_510_Project
-C:/Users/agali1/Documents/HCI510/HCI510_GameMockup/HCI_510_Project
+49929
+Successfully changed project path to: C:/Users/leedle/Documents/VRAC/Thesis/HCI510_GameMockup/HCI_510_Project
+C:/Users/leedle/Documents/VRAC/Thesis/HCI510_GameMockup/HCI_510_Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 101.68 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 77.89 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.3f1 (76626098c1c4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/agali1/Documents/HCI510/HCI510_GameMockup/HCI_510_Project/Assets
+[Subsystems] Discovering subsystems at path C:/Users/leedle/Documents/VRAC/Thesis/HCI510_GameMockup/HCI_510_Project/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA Quadro K5000 (ID=0x11ba)
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics (ID=0x8a56)
     Vendor:   
-    VRAM:     4052 MB
-    Driver:   30.0.14.7298
+    VRAM:     5987 MB
+    Driver:   31.0.101.2125
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56944
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56452
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.426577 seconds.
+Registered in 0.011672 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 55.38 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 97.92 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  8.198 seconds
+- Completed reload, in 10.410 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.236334 seconds.
+Registered in 0.007082 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001D6FCE4D080 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D6FC6BB010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5420D1480 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D540A93C60 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D541461020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D6FCC37E30 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D6FC576030 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D6FC6CE420 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D541461020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D540CC2420 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.806 seconds
+- Completed reload, in  2.235 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1120 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.8 MB.
-System memory in use after: 57.8 MB.
+Unloading 1134 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.9 MB.
+System memory in use after: 59.9 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1565.
-Total: 2.569800 ms (FindLiveObjects: 0.188900 ms CreateObjectMapping: 0.069900 ms MarkObjects: 2.163700 ms  DeleteObjects: 0.145100 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1579.
+Total: 4.057700 ms (FindLiveObjects: 0.455000 ms CreateObjectMapping: 0.123300 ms MarkObjects: 3.280800 ms  DeleteObjects: 0.196000 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/DragDrop.cs
-  artifactKey: Guid(96863fcceeeedf244bb93d4423fcf08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DragDrop.cs using Guid(96863fcceeeedf244bb93d4423fcf08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49f0f65229836eb58d613bb0b1ba1f4f') in 0.079884 seconds
-  Import took 0.082967 seconds .
+  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Block_Breeze.fbx
+  artifactKey: Guid(fc615472ad1eda849839f06112fa94a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Block_Breeze.fbx using Guid(fc615472ad1eda849839f06112fa94a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d75c94baa83c1d52c370ed838c4f001') in 0.806543 seconds
+  Import took 0.812256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000422 seconds.
+  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_SmallWide_Winter.fbx
+  artifactKey: Guid(113fd9655d996b94f966b82dbaa448bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_SmallWide_Winter.fbx using Guid(113fd9655d996b94f966b82dbaa448bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4fcb70658b3d5fd32b5e5328e9c8180') in 0.077057 seconds
+  Import took 0.082425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000706 seconds.
+  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_SmallWide_Summer.fbx
+  artifactKey: Guid(55c4a7556586d1a41af84401e23c7f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_SmallWide_Summer.fbx using Guid(55c4a7556586d1a41af84401e23c7f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9cbd668d06c0d2a289afb8bc939e151') in 0.069010 seconds
+  Import took 0.076257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000531 seconds.
+  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Cube_Autumn.fbx
+  artifactKey: Guid(a1e877abeab76674ab7a428c560db91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Cube_Autumn.fbx using Guid(a1e877abeab76674ab7a428c560db91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a442607828b3acfac3215f90d09468d0') in 0.074485 seconds
+  Import took 0.080915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000499 seconds.
+  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Mushroom3.fbx
+  artifactKey: Guid(b9257a6715ffeae41bfdb752861b989f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Mushroom3.fbx using Guid(b9257a6715ffeae41bfdb752861b989f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd402cf7ed218e6ae154687332046003f') in 0.074177 seconds
+  Import took 0.080383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000776 seconds.
+  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/RockCanyon004.fbx
+  artifactKey: Guid(8a01f2fa7e726604ba2bbe59a8ab3e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/RockCanyon004.fbx using Guid(8a01f2fa7e726604ba2bbe59a8ab3e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d982870a38147b714980ef03af9200') in 0.074093 seconds
+  Import took 0.079159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000631 seconds.
+  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_Small_SumAut.fbx
+  artifactKey: Guid(24385fac2f0992d4db00a60ea4c64726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_Small_SumAut.fbx using Guid(24385fac2f0992d4db00a60ea4c64726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a75dafb432b9c8d83bfd539c872d8a70') in 0.071998 seconds
+  Import took 0.079097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000657 seconds.
+  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/RockMoss1.fbx
+  artifactKey: Guid(aed4c3981a84aad4d9f48335fef1a4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/RockMoss1.fbx using Guid(aed4c3981a84aad4d9f48335fef1a4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0616fd87120a6bfb9e3c2c9260bae0f') in 0.068302 seconds
+  Import took 0.074802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000476 seconds.
+  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_Tall_Summer.fbx
+  artifactKey: Guid(8aed1ee6de482104398343e2285e22b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_Tall_Summer.fbx using Guid(8aed1ee6de482104398343e2285e22b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f55229338df694c59a7dafaf6df9280f') in 0.084237 seconds
+  Import took 0.092225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000833 seconds.
+  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_Tall_SumAut.fbx
+  artifactKey: Guid(9c1b80ac22fa2794c8c3faa0fda4a3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_Tall_SumAut.fbx using Guid(9c1b80ac22fa2794c8c3faa0fda4a3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24efb3fca8a73009eb38fde79b52c0b6') in 0.089671 seconds
+  Import took 0.097304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000516 seconds.
+  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Mushroom1.fbx
+  artifactKey: Guid(3183255df81812e44bb8509818c53459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Mushroom1.fbx using Guid(3183255df81812e44bb8509818c53459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4e4ecb81d010e4e29bcd59ce255ee49') in 0.079701 seconds
+  Import took 0.088819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000730 seconds.
+  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Block_Rounded_Clay.fbx
+  artifactKey: Guid(2c383f7356a42da4e9a9533dfb23d831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Block_Rounded_Clay.fbx using Guid(2c383f7356a42da4e9a9533dfb23d831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f80f52acb3eaf9b79d79e27645c3253') in 0.091313 seconds
+  Import took 0.098687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000444 seconds.
+  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Block_Cap_Clay.fbx
+  artifactKey: Guid(26bada306b83c324dbe06de87e83e5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Block_Cap_Clay.fbx using Guid(26bada306b83c324dbe06de87e83e5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7aa9713d113198a5a4ba4ddaff1eaee') in 0.077915 seconds
+  Import took 0.083571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Block_LavaBase.fbx
+  artifactKey: Guid(881f27bc558e64d4983e73ddeb0afcf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Block_LavaBase.fbx using Guid(881f27bc558e64d4983e73ddeb0afcf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d30d245682c58160169b4a4afc827c9') in 0.070426 seconds
+  Import took 0.078295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000722 seconds.
+  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Block_Brick.fbx
+  artifactKey: Guid(30c89953ee387334da183f6c76fd48d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Block_Brick.fbx using Guid(30c89953ee387334da183f6c76fd48d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4ab878c8fd4955a9bcc868fd3a54a93') in 0.076981 seconds
+  Import took 0.085303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000563 seconds.
+  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Small_E.fbx
+  artifactKey: Guid(e4ac51746797f2e4293a32d5798a711a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Small_E.fbx using Guid(e4ac51746797f2e4293a32d5798a711a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ed31116d9e0f30ae756106fc03d26a') in 0.085642 seconds
+  Import took 0.091431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000787 seconds.
+  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/RockPlainBrown2.fbx
+  artifactKey: Guid(2f32a3b1893886e4caaee2987c67f4bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/RockPlainBrown2.fbx using Guid(2f32a3b1893886e4caaee2987c67f4bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aa22abaa2d3d7b19c5e917fac62ba4a') in 0.085175 seconds
+  Import took 0.092711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000490 seconds.
+  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Mushroom2.fbx
+  artifactKey: Guid(fca5eebacfcd027439b1a55ccbec7c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Mushroom2.fbx using Guid(fca5eebacfcd027439b1a55ccbec7c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80cb29cb0eb9f806e7116ca2e2cec7b8') in 0.068212 seconds
+  Import took 0.073158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000482 seconds.
+  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_Small_Winter.fbx
+  artifactKey: Guid(a31004de3612a3e4e81fae9e0342cf4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_Small_Winter.fbx using Guid(a31004de3612a3e4e81fae9e0342cf4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482dc533e1a1c5ab0bcd8aaba2db1c3e') in 0.090670 seconds
+  Import took 0.098448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000568 seconds.
+  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Small_G.fbx
+  artifactKey: Guid(cb97b63ea827ef943bf415437edbd45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Small_G.fbx using Guid(cb97b63ea827ef943bf415437edbd45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51886389e3eb9549054aba118e08d3ed') in 0.079126 seconds
+  Import took 0.084958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000622 seconds.
+  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_Medium_Winter.fbx
+  artifactKey: Guid(feca5e0a19d2e954786068541e7ad26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_Medium_Winter.fbx using Guid(feca5e0a19d2e954786068541e7ad26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f01815477d2e192af5a88a550c27dae1') in 0.071526 seconds
+  Import took 0.078119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000663 seconds.
+  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Block_Rounded_SnowBase.fbx
+  artifactKey: Guid(352d61166fe86e64c8c239704389011f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Block_Rounded_SnowBase.fbx using Guid(352d61166fe86e64c8c239704389011f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '480dba42d62a83d00e0c8b18caf45c30') in 0.078460 seconds
+  Import took 0.083090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000504 seconds.
+  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Block_Brick_Subway.fbx
+  artifactKey: Guid(a626d6d6e3e2eed45a1c2ee0b69d21d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Block_Brick_Subway.fbx using Guid(a626d6d6e3e2eed45a1c2ee0b69d21d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea5a11a5c6d539b392a3c22a04d93123') in 0.076880 seconds
+  Import took 0.081804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000690 seconds.
+  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_Small_Summer.fbx
+  artifactKey: Guid(0922615b8cf37de4dbed5ebaeb515038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_Small_Summer.fbx using Guid(0922615b8cf37de4dbed5ebaeb515038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c6612b113a27a1b87f665b426381d8f') in 0.074829 seconds
+  Import took 0.082114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/RockMoss2.fbx
+  artifactKey: Guid(a65c3afa3a1bc7d4288d11f92e8293c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/RockMoss2.fbx using Guid(a65c3afa3a1bc7d4288d11f92e8293c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e88e8c10dd9c60f4653196fc24a725') in 0.083566 seconds
+  Import took 0.088544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000561 seconds.
+  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Small_F.fbx
+  artifactKey: Guid(926d62e2ab4c8ea4eaa865d640788530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Small_F.fbx using Guid(926d62e2ab4c8ea4eaa865d640788530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58801dccb68cc3e792c1f3f11ca1758b') in 0.075200 seconds
+  Import took 0.080032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000482 seconds.
+  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Mushroom4.fbx
+  artifactKey: Guid(701bb4773c0e3c14ba476ccd97324ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Mushroom4.fbx using Guid(701bb4773c0e3c14ba476ccd97324ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27d0094b802fce1d88cf635d69108c16') in 0.064640 seconds
+  Import took 0.070907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000495 seconds.
+  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Block_Rounded_Soil.fbx
+  artifactKey: Guid(1d2dcf3cca292da4aadcfafcaf287b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Block_Rounded_Soil.fbx using Guid(1d2dcf3cca292da4aadcfafcaf287b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5151ca827e13ea21be2fde5fa7e1df3f') in 0.058394 seconds
+  Import took 0.063092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000685 seconds.
+  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_SmallWide_SumAut.fbx
+  artifactKey: Guid(ebd7cb7d2da226040874ab25a655ac11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_SmallWide_SumAut.fbx using Guid(ebd7cb7d2da226040874ab25a655ac11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7943edb91a6858056be397b1395a90c0') in 0.058686 seconds
+  Import took 0.068448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000510 seconds.
+  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/RockMoss3.fbx
+  artifactKey: Guid(ebeff7513dcf7d7499692ef3e32b6841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/RockMoss3.fbx using Guid(ebeff7513dcf7d7499692ef3e32b6841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cb83848165eacd506e555b0e16e6900') in 0.053838 seconds
+  Import took 0.059414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000466 seconds.
+  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Block_Rounded_Water.fbx
+  artifactKey: Guid(ddf5b982b890d7b4dbcb32c7b2f10ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Block_Rounded_Water.fbx using Guid(ddf5b982b890d7b4dbcb32c7b2f10ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a117cbfbb095ad5c28b8d389f2ff62a') in 0.054877 seconds
+  Import took 0.059401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000567 seconds.
+  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Block_Rounded_Sand.fbx
+  artifactKey: Guid(51a77d4d1fc40e54c8b9bf7b689bfc7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Block_Rounded_Sand.fbx using Guid(51a77d4d1fc40e54c8b9bf7b689bfc7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52535889e93037ca8c612c595a837445') in 0.057717 seconds
+  Import took 0.062235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000539 seconds.
+  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Block_Concrete.fbx
+  artifactKey: Guid(edcaa079410ef6445be20884c5aa7996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Block_Concrete.fbx using Guid(edcaa079410ef6445be20884c5aa7996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac13c780c31f58dd20cf7ae709a48f76') in 0.062303 seconds
+  Import took 0.068009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000695 seconds.
+  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Block_Cap_Water.fbx
+  artifactKey: Guid(7c2b143b31fbe2346b22632861389699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Block_Cap_Water.fbx using Guid(7c2b143b31fbe2346b22632861389699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c42cb761f8900cf9c9c11300ea7d3dd') in 0.060218 seconds
+  Import took 0.065398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000527 seconds.
+  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Block_Cap_Stones.fbx
+  artifactKey: Guid(924eaa973399c1741bc7fecef6878a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Block_Cap_Stones.fbx using Guid(924eaa973399c1741bc7fecef6878a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e4f3ff2554f7de7749acfc6ee5c9291') in 0.068915 seconds
+  Import took 0.075942 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002168 seconds.
+Registered in 0.003340 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001D542023CE0 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5416BA010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D6FC8B8760 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D540CC7530 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D6FC980EC0 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5416BA010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D540B69020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D542C9B020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5416BA010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D540F28050 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.397 seconds
+- Completed reload, in  3.783 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.6 MB.
-System memory in use after: 57.7 MB.
+Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.0 MB.
+System memory in use after: 62.0 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1568.
-Total: 2.400900 ms (FindLiveObjects: 0.159300 ms CreateObjectMapping: 0.066800 ms MarkObjects: 2.081200 ms  DeleteObjects: 0.091500 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1625.
+Total: 4.963300 ms (FindLiveObjects: 1.124400 ms CreateObjectMapping: 0.243900 ms MarkObjects: 3.494800 ms  DeleteObjects: 0.096600 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002642 seconds.
+Registered in 0.003909 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001D6FC59C650 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D541DFC010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5443CBD70 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5440EC010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5411F4020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D6FCB46030 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D542BC5010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5440EC010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D541124000 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5443CBD70 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.17 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.465 seconds
+- Completed reload, in  3.552 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.6 MB.
-System memory in use after: 57.7 MB.
+Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.0 MB.
+System memory in use after: 62.1 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1571.
-Total: 2.566300 ms (FindLiveObjects: 0.193800 ms CreateObjectMapping: 0.075000 ms MarkObjects: 2.201400 ms  DeleteObjects: 0.094300 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1628.
+Total: 7.183600 ms (FindLiveObjects: 1.191900 ms CreateObjectMapping: 0.236000 ms MarkObjects: 5.592500 ms  DeleteObjects: 0.146600 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002462 seconds.
+Registered in 0.002848 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001D6FC8F4C80 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D543A88020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D543E44020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D542C9B020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D542843FC0 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D544312020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D540B69020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D542C9B020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D542564020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5442AF720 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.284 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.0 MB.
+System memory in use after: 62.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1631.
+Total: 4.823300 ms (FindLiveObjects: 0.361300 ms CreateObjectMapping: 0.211500 ms MarkObjects: 4.080400 ms  DeleteObjects: 0.167500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001416 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.539 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.0 MB.
+System memory in use after: 62.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1634.
+Total: 4.672800 ms (FindLiveObjects: 0.238300 ms CreateObjectMapping: 0.052200 ms MarkObjects: 4.304400 ms  DeleteObjects: 0.076200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001468 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.587 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.1 MB.
+System memory in use after: 62.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1637.
+Total: 2.111700 ms (FindLiveObjects: 0.285900 ms CreateObjectMapping: 0.094400 ms MarkObjects: 1.658700 ms  DeleteObjects: 0.071100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007805 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.220 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.1 MB.
+System memory in use after: 62.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1640.
+Total: 46.320500 ms (FindLiveObjects: 0.633400 ms CreateObjectMapping: 1.483000 ms MarkObjects: 44.047400 ms  DeleteObjects: 0.153300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001599 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.548 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.1 MB.
+System memory in use after: 62.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1643.
+Total: 2.418200 ms (FindLiveObjects: 0.148600 ms CreateObjectMapping: 0.037100 ms MarkObjects: 2.150400 ms  DeleteObjects: 0.080600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001394 seconds.
+Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -218,42 +525,45 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.470 seconds
+- Completed reload, in  2.428 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.6 MB.
-System memory in use after: 57.7 MB.
+Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.1 MB.
+System memory in use after: 62.2 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1574.
-Total: 3.224700 ms (FindLiveObjects: 0.423500 ms CreateObjectMapping: 0.110800 ms MarkObjects: 2.606700 ms  DeleteObjects: 0.080800 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1646.
+Total: 4.583700 ms (FindLiveObjects: 0.411900 ms CreateObjectMapping: 0.222600 ms MarkObjects: 3.801900 ms  DeleteObjects: 0.141600 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002468 seconds.
+Registered in 0.002714 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001D54177B060 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D54190A030 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D54418B010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D540EDE420 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D544453FD0 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D54190A030 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5447B4DD0 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D540EDE420 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D540A79C50 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D54418B010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.515 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.1 MB.
+System memory in use after: 62.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1649.
+Total: 3.866600 ms (FindLiveObjects: 0.120300 ms CreateObjectMapping: 0.028200 ms MarkObjects: 3.499900 ms  DeleteObjects: 0.216300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001769 seconds.
+Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -261,85 +571,91 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.717 seconds
+- Completed reload, in  1.624 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.6 MB.
-System memory in use after: 57.7 MB.
+Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.1 MB.
+System memory in use after: 62.2 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1577.
-Total: 2.534600 ms (FindLiveObjects: 0.178100 ms CreateObjectMapping: 0.078200 ms MarkObjects: 2.188800 ms  DeleteObjects: 0.087400 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1652.
+Total: 3.812000 ms (FindLiveObjects: 0.303700 ms CreateObjectMapping: 0.194800 ms MarkObjects: 3.206200 ms  DeleteObjects: 0.104700 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002296 seconds.
+Registered in 0.003212 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001D5459C6D40 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D544485020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D54418B010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D544F6FDF0 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D541DA8010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D544485020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5410F4010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D544F6FDF0 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D544FD4F10 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D543E44020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.85 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.459 seconds
+- Completed reload, in  2.582 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.89 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.6 MB.
-System memory in use after: 57.7 MB.
+Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.1 MB.
+System memory in use after: 62.2 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1580.
-Total: 2.485700 ms (FindLiveObjects: 0.161800 ms CreateObjectMapping: 0.067100 ms MarkObjects: 2.174400 ms  DeleteObjects: 0.080300 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1655.
+Total: 3.901800 ms (FindLiveObjects: 0.507400 ms CreateObjectMapping: 0.296300 ms MarkObjects: 3.004800 ms  DeleteObjects: 0.089400 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002393 seconds.
+Registered in 0.001931 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001D542A8E430 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5447C8020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5439FA5B0 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D541F90030 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D544F7C100 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5447C8020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D540F64030 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D542C9B020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D542564020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D544418010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.827 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.1 MB.
+System memory in use after: 62.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1658.
+Total: 2.289600 ms (FindLiveObjects: 0.253900 ms CreateObjectMapping: 0.041700 ms MarkObjects: 1.922600 ms  DeleteObjects: 0.069900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007122 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.588 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.95 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.1 MB.
+System memory in use after: 62.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1661.
+Total: 4.990100 ms (FindLiveObjects: 0.525200 ms CreateObjectMapping: 0.185500 ms MarkObjects: 4.145800 ms  DeleteObjects: 0.129500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001660 seconds.
+Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -347,651 +663,38 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.472 seconds
+- Completed reload, in  3.491 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.16 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.6 MB.
-System memory in use after: 57.7 MB.
+Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.1 MB.
+System memory in use after: 62.2 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1583.
-Total: 2.484500 ms (FindLiveObjects: 0.177100 ms CreateObjectMapping: 0.067600 ms MarkObjects: 2.156200 ms  DeleteObjects: 0.081400 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1664.
+Total: 3.590400 ms (FindLiveObjects: 0.396300 ms CreateObjectMapping: 0.110300 ms MarkObjects: 2.939800 ms  DeleteObjects: 0.140500 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002458 seconds.
+Registered in 0.003443 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001D6FCB0CA00 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D540D65020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5439FA5B0 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D54427C030 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D545B00050 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D545D98040 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5410F4010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D542C9B020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5416BA010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D544418010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.420 seconds
+- Completed reload, in  3.357 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1127 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 59.6 MB.
-System memory in use after: 59.1 MB.
+Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.1 MB.
+System memory in use after: 62.2 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1586.
-Total: 3.043300 ms (FindLiveObjects: 0.177400 ms CreateObjectMapping: 0.064500 ms MarkObjects: 2.251300 ms  DeleteObjects: 0.548400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 2850.639537 seconds.
-  path: Assets/Scripts/TestScript.cs
-  artifactKey: Guid(eebc6a919a4a16a43af61310517f35f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/TestScript.cs using Guid(eebc6a919a4a16a43af61310517f35f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90d8a704cc1a4d9df13bef77e5cbba21') in 0.029020 seconds
-  Import took 0.032767 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002407 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001D542A8E430 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D54505B020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D54418B010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5439F4020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D544E7C040 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D542877020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5410F4010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5439F4020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5416BA010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5445F6020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.476 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1127 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 59.6 MB.
-System memory in use after: 59.1 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1589.
-Total: 3.001700 ms (FindLiveObjects: 0.188100 ms CreateObjectMapping: 0.064200 ms MarkObjects: 2.204200 ms  DeleteObjects: 0.543400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 773.863577 seconds.
-  path: Assets/Scripts/TestScript.cs
-  artifactKey: Guid(eebc6a919a4a16a43af61310517f35f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/TestScript.cs using Guid(eebc6a919a4a16a43af61310517f35f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359ecf2a5899ece509ec54063a4ca7df') in 0.015133 seconds
-  Import took 0.017646 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002426 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001D54177B060 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D54573E020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D54418B010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D54504FE20 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D545C72040 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5426FF020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5410F4010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D542C9B020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5416BA010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5445F6020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.362 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1127 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 59.7 MB.
-System memory in use after: 59.1 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1592.
-Total: 3.261500 ms (FindLiveObjects: 0.173200 ms CreateObjectMapping: 0.066400 ms MarkObjects: 2.365900 ms  DeleteObjects: 0.654100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 403.695560 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(f799760088702e049ba568a54f869a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(f799760088702e049ba568a54f869a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8770c021b7ffaec36af806dde7e2f68f') in 0.018761 seconds
-  Import took 0.022060 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.255430 seconds.
-  path: Assets/Scripts/GameScript.cs
-  artifactKey: Guid(29f48a793d5e7ee49a212d83984049d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameScript.cs using Guid(29f48a793d5e7ee49a212d83984049d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ce4e255ecf528dbc02c9169e447a4ec') in 0.015183 seconds
-  Import took 0.018040 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002285 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001D542CA4E50 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D545345020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5419BC030 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D545C82050 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D546288020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5445DE010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5410F4010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D54504D010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D545C51010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D544446930 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.480 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 59.7 MB.
-System memory in use after: 59.1 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1596.
-Total: 3.124300 ms (FindLiveObjects: 0.191300 ms CreateObjectMapping: 0.076200 ms MarkObjects: 2.305800 ms  DeleteObjects: 0.549000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002335 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001D5445E7E40 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D544252020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D544362030 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D545CF5010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D546234030 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D6FCADE010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5410F4010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D545CF5010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5416BA010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D544418010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.440 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 59.7 MB.
-System memory in use after: 59.1 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1599.
-Total: 3.388800 ms (FindLiveObjects: 0.314700 ms CreateObjectMapping: 0.067500 ms MarkObjects: 2.328600 ms  DeleteObjects: 0.675800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002484 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001D54418EB10 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D545345020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5419BC030 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D6FC5BE940 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D54526AA00 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D54435A020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5410F4010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D6FC5BE940 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5416BA010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5442FCA60 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.389 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 59.7 MB.
-System memory in use after: 59.1 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1602.
-Total: 3.157200 ms (FindLiveObjects: 0.218500 ms CreateObjectMapping: 0.076500 ms MarkObjects: 2.273900 ms  DeleteObjects: 0.586400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1188.298677 seconds.
-  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Mushroom4.fbx
-  artifactKey: Guid(701bb4773c0e3c14ba476ccd97324ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Mushroom4.fbx using Guid(701bb4773c0e3c14ba476ccd97324ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9502849ae6cfca4b3990b466a0e6fbb') in 0.408769 seconds
-  Import took 0.416309 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_SmallWide_Winter.fbx
-  artifactKey: Guid(113fd9655d996b94f966b82dbaa448bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_SmallWide_Winter.fbx using Guid(113fd9655d996b94f966b82dbaa448bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce2073e6242dd3c8bf6eed1d7d6e9399') in 0.048659 seconds
-  Import took 0.051642 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Mushroom3.fbx
-  artifactKey: Guid(b9257a6715ffeae41bfdb752861b989f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Mushroom3.fbx using Guid(b9257a6715ffeae41bfdb752861b989f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd09112b3279a9876268b2e8a53f97837') in 0.055881 seconds
-  Import took 0.058812 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000387 seconds.
-  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/RockCanyon004.fbx
-  artifactKey: Guid(8a01f2fa7e726604ba2bbe59a8ab3e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/RockCanyon004.fbx using Guid(8a01f2fa7e726604ba2bbe59a8ab3e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b06c6863bee00c21b28469a2994918') in 0.053527 seconds
-  Import took 0.056522 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Mushroom3.fbx
-  artifactKey: Guid(b9257a6715ffeae41bfdb752861b989f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Mushroom3.fbx using Guid(b9257a6715ffeae41bfdb752861b989f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd09112b3279a9876268b2e8a53f97837') in 0.037418 seconds
-  Import took 0.040309 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/RockMoss1.fbx
-  artifactKey: Guid(aed4c3981a84aad4d9f48335fef1a4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/RockMoss1.fbx using Guid(aed4c3981a84aad4d9f48335fef1a4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b5a8b67a67f078e91be40a8f4f6b112') in 0.053890 seconds
-  Import took 0.056717 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000357 seconds.
-  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_Tall_Summer.fbx
-  artifactKey: Guid(8aed1ee6de482104398343e2285e22b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_Tall_Summer.fbx using Guid(8aed1ee6de482104398343e2285e22b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c9b4f697d3e25c57814e2fca35da680') in 0.056762 seconds
-  Import took 0.059571 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_Tall_SumAut.fbx
-  artifactKey: Guid(9c1b80ac22fa2794c8c3faa0fda4a3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_Tall_SumAut.fbx using Guid(9c1b80ac22fa2794c8c3faa0fda4a3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b426e4ab85d5abd883dd030d4e016b9') in 0.050519 seconds
-  Import took 0.053418 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000375 seconds.
-  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_Tall_Summer.fbx
-  artifactKey: Guid(8aed1ee6de482104398343e2285e22b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_Tall_Summer.fbx using Guid(8aed1ee6de482104398343e2285e22b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c9b4f697d3e25c57814e2fca35da680') in 0.034763 seconds
-  Import took 0.037520 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Mushroom2.fbx
-  artifactKey: Guid(fca5eebacfcd027439b1a55ccbec7c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Mushroom2.fbx using Guid(fca5eebacfcd027439b1a55ccbec7c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cff6fa4541f3d53ef6e107bc092e3403') in 0.056063 seconds
-  Import took 0.058886 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000355 seconds.
-  path: Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Mushroom4.fbx
-  artifactKey: Guid(701bb4773c0e3c14ba476ccd97324ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Mushroom4.fbx using Guid(701bb4773c0e3c14ba476ccd97324ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9502849ae6cfca4b3990b466a0e6fbb') in 0.042514 seconds
-  Import took 0.045333 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002494 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001D545AE5E50 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5456CA050 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D543DD90A0 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D545A48010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5455C4020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D545A14010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5410F4010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D545A48010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5416BA010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D6FCAC3020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.490 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 63.2 MB.
-System memory in use after: 62.6 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1648.
-Total: 3.023500 ms (FindLiveObjects: 0.200900 ms CreateObjectMapping: 0.070300 ms MarkObjects: 2.187600 ms  DeleteObjects: 0.562800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002311 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001D545D65BF0 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D545479010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5441BAEB0 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5456CA050 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D545A66FF0 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D545479010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5410F4010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5456CA050 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5416BA010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5419BC030 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.531 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 63.2 MB.
-System memory in use after: 62.6 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1651.
-Total: 2.886300 ms (FindLiveObjects: 0.196800 ms CreateObjectMapping: 0.069000 ms MarkObjects: 2.062300 ms  DeleteObjects: 0.556100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002433 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001D545F34660 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D6FCC27020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D545B3C020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5456CA050 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D54597D950 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D541473010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5410F4010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5456CA050 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D541DEA020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D6FCAC3020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.555 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 63.2 MB.
-System memory in use after: 62.6 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1654.
-Total: 3.210400 ms (FindLiveObjects: 0.183100 ms CreateObjectMapping: 0.068100 ms MarkObjects: 2.331900 ms  DeleteObjects: 0.625300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002451 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001D6FCEBB990 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D540B7B010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D545B3C020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5447C8020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D546718030 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D541473010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5410F4010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5456CA050 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5416BA010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5456F6DA0 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.466 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 63.2 MB.
-System memory in use after: 62.6 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1657.
-Total: 2.944000 ms (FindLiveObjects: 0.240100 ms CreateObjectMapping: 0.078800 ms MarkObjects: 2.058700 ms  DeleteObjects: 0.564200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002406 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001D54147CE40 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5459AF020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5441FBE60 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D54567A020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D546213F20 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D546629030 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5410F4010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D54567A020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5416BA010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D6FCAC3020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.425 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 63.2 MB.
-System memory in use after: 62.6 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1660.
-Total: 3.172000 ms (FindLiveObjects: 0.301100 ms CreateObjectMapping: 0.097500 ms MarkObjects: 2.196800 ms  DeleteObjects: 0.574300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002483 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001D545E5DE60 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D546627020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D546611090 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D546627020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5472A0080 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D546627020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5410F4010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D546627020 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5416BA010 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D541699030 doesn't match image C:\Users\agali1\Documents\HCI510\HCI510_GameMockup\HCI_510_Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.435 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 63.2 MB.
-System memory in use after: 62.6 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1663.
-Total: 3.045100 ms (FindLiveObjects: 0.192900 ms CreateObjectMapping: 0.066900 ms MarkObjects: 2.182800 ms  DeleteObjects: 0.600300 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1667.
+Total: 8.070600 ms (FindLiveObjects: 0.866900 ms CreateObjectMapping: 0.246800 ms MarkObjects: 6.832900 ms  DeleteObjects: 0.120100 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

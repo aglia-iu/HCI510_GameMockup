@@ -16,8 +16,7 @@ public class GameScript : MonoBehaviour
         -- defines a factorial function
 		function fact ()
 			return 'Hello World!'
-			end
-		end";
+	    end";
         testScript = inputField.GetComponentInChildren<TestScript>();
         testScript.initScript(tmpString);
         inputField.text = testScript.myScript;
