@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class Select3DObject : MonoBehaviour
 {
@@ -38,7 +39,9 @@ public class Select3DObject : MonoBehaviour
     void InstantiateNameTag()
     {
         GameObject objToInstantiate = Instantiate(canvasObject);
+        TextMeshProUGUI text = objToInstantiate.GetComponentInChildren<TextMeshProUGUI>();
         objToInstantiate.transform.SetPositionAndRotation(new Vector3(_renderer.transform.position.x, _renderer.transform.position.y + 0.5f, _renderer.transform.position.z), new Quaternion(0,0,0,0));
+        text.text = _renderer.gameObject.name;
     }
     void DestroyNameTag()
     {

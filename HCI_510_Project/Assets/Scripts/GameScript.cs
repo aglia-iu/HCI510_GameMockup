@@ -27,12 +27,13 @@ public class GameScript : MonoBehaviour
     {
         
     }
+
+
     public void UpdateScript()
     {
         string tmpString = inputField.text;
         testScript.initScript(tmpString);
         testScript.RunScript();
-        
         resultText.text = testScript.result;
 
     }
