@@ -42,6 +42,7 @@ public class GameScript : MonoBehaviour
 
         UserData.RegisterType<Select3DObject>();// Register GameObject Type here.
         script.Globals["cube"] = select3DObject;
+        script.Globals["cube_"] = select3DObject;
         testScript.RunScript();
 
         resultText.text = testScript.result;

@@ -23,7 +23,22 @@ public class Select3DObject : MonoBehaviour
         _renderer.material.color =
             _renderer.material.color == Color.blue ? Color.yellow : Color.blue;
     }
+    public void MoveObject(float x, float y, float z)
+    {
+        _renderer.transform.position = new Vector3(_renderer.transform.position.x + x, _renderer.transform.position.y + y, _renderer.transform.position.z + z);
 
+    }
+    public void DuplicateObject()
+    {
+        GameObject objToInstantiate = Instantiate(_renderer.gameObject);
+        objToInstantiate.name = _renderer.gameObject.name + "_";
+
+    }
+    public void RotateObject(float x, float y, float z, float w)
+    {
+        _renderer.transform.rotation = new Quaternion(_renderer.transform.rotation.x + x, _renderer.transform.rotation.y + y, _renderer.transform.rotation.z + z, _renderer.transform.rotation.w + w);
+
+    }
     public void ChangeColorRed()
     {
         Debug.Log("Color change in progress...");
