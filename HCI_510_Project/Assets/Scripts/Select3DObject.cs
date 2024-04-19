@@ -16,15 +16,27 @@ public class Select3DObject : MonoBehaviour
     void Start()
     {
         _renderer = GetComponent<Renderer>();
-    }
-
-
-    // OnMouseDown is called once per frame
-    void OnMouseDown()
+    } 
+    void ChangeColorBlue()
     {
         Debug.Log("Click!");
         _renderer.material.color =
             _renderer.material.color == Color.blue ? Color.yellow : Color.blue;
+    }
+
+    public void ChangeColorRed()
+    {
+        Debug.Log("Color change in progress...");
+        _renderer.material.color =
+            _renderer.material.color == Color.red ? Color.yellow : Color.red;
+        Debug.Log("Color change successful!");
+
+    }
+
+    // OnMouseDown is called once per frame
+    void OnMouseDown()
+    {
+        ChangeColorBlue();
         if (click)
         {
             InstantiateNameTag();

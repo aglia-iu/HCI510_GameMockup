@@ -22,11 +22,12 @@ public class TestScript : MonoBehaviour
 		//Debug.Log(", Val 2: " + MoonSharpFactorial2());
 		//Debug.Log(", Val 3: " + MoonSharpFactorial3());
     }
-    public void initScript(string ScriptText)
+    public Script initScript(string ScriptText)
     {
         script = new Script();
         myScript = ScriptText;
         script.DoString(myScript);
+        return script;
     }
 
     public void RunScript()
