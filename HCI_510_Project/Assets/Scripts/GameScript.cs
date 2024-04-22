@@ -7,13 +7,16 @@ using MoonSharp.Interpreter;
 
 public class GameScript : MonoBehaviour
 {   
-    public Select3DObject select3DObject;
+    [SerializeField]
+    private Select3DObject [] objectsToSelect;
+
     TestScript testScript;
     public TMP_InputField inputField;
     public TMP_Text resultText;
     // Start is called before the first frame update
     void Start()
     {
+        objectsToSelect = GameObject.FindObjectsOfType<Select3DObject>();
         /*string tmpString = @"
         -- defines a factorial function
 		function fact ()
@@ -30,9 +33,9 @@ public class GameScript : MonoBehaviour
         
     }
 
-
     public void UpdateScript()
     {
+        objectsToSelect = FindObjectsOfType<Select3DObject>();
         string tmpString = inputField.text;
         /*testScript.initScript(tmpString);
         testScript.RunScript();*/
@@ -41,8 +44,18 @@ public class GameScript : MonoBehaviour
         //inputField.text = testScript.myScript;
 
         UserData.RegisterType<Select3DObject>();// Register GameObject Type here.
-        script.Globals["cube"] = select3DObject;
-        script.Globals["cube_"] = select3DObject;
+        if (objectsToSelect != null) 
+        {
+            for (int i = 0; i < objectsToSelect.Length; i++)
+            {
+                    script.Globals[objectsToSelect[i].name] = objectsToSelect[i];
+            }
+        }
+        else
+        {
+            Debug.Log("Did find objects with Script Select3DObject attached.");
+        }
+        //script.Globals["cube"] = select3DObject;
         testScript.RunScript();
 
         resultText.text = testScript.result;

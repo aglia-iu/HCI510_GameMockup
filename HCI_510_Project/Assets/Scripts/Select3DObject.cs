@@ -28,15 +28,16 @@ public class Select3DObject : MonoBehaviour
         _renderer.transform.position = new Vector3(_renderer.transform.position.x + x, _renderer.transform.position.y + y, _renderer.transform.position.z + z);
 
     }
-    public void DuplicateObject()
+    public void DuplicateObject(string name)
     {
         GameObject objToInstantiate = Instantiate(_renderer.gameObject);
-        objToInstantiate.name = _renderer.gameObject.name + "_";
+        objToInstantiate.name = name;
 
     }
-    public void RotateObject(float x, float y, float z, float w)
+    public void RotateObject(float x, float y, float z)
     {
-        _renderer.transform.rotation = new Quaternion(_renderer.transform.rotation.x + x, _renderer.transform.rotation.y + y, _renderer.transform.rotation.z + z, _renderer.transform.rotation.w + w);
+       
+        _renderer.transform.rotation = Quaternion.Euler(_renderer.transform.rotation.eulerAngles.x + x, _renderer.transform.rotation.eulerAngles.y + y, _renderer.transform.rotation.eulerAngles.z + z);
 
     }
     public void ChangeColorRed()

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1985,7 +1985,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29f48a793d5e7ee49a212d83984049d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  select3DObject: {fileID: 1633284828}
+  objectsToSelect: []
   inputField: {fileID: 1829191199}
   resultText: {fileID: 643873781}
 --- !u!1001 &645713114
@@ -2112,6 +2112,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4147791387530772, guid: 8c4f8b011efee6947bd048c28fa4facd, type: 3}
   m_PrefabInstance: {fileID: 654133956}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &661291303 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1544057211917980, guid: 4391b29009bbd8f478b58e9fe223b98f, type: 3}
+  m_PrefabInstance: {fileID: 1671511145}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &661291306
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 661291303}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 0.19999999, z: 1}
+  m_Center: {x: -0.0000000060535967, y: 0.09999999, z: 0}
 --- !u!1001 &725429866
 PrefabInstance:
   m_ObjectHideFlags: 0
