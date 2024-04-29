@@ -30,7 +30,7 @@ public class Select3DObject : MonoBehaviour
     }
     public void DuplicateObject(string name)
     {
-        GameObject objToInstantiate = Instantiate(_renderer.gameObject);
+        GameObject objToInstantiate = Instantiate(_renderer.gameObject, _renderer.gameObject.transform.position, _renderer.gameObject.transform.rotation);
         objToInstantiate.name = name;
 
     }
