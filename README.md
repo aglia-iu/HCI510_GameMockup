@@ -20,7 +20,7 @@ To install and run this project, you will need:
 
 - Git Bash or GitHub Desktop
 - Unity Hub
-- Unity v. 2020.3.31f1
+- Unity v. 2020.3.3f1
 
 1. Begin by pulling the code to your local machine using HTTPS or SSH (this will require access to Git Bash or GitHub Desktop.)
 2. Open Unity Hub, and select the option to open a project from your local drive.
